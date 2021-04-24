@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Golang on Hugo Zzo Theme</title>
+    <link>https://dushaoshuai.github.io/categories/golang/</link>
+    <description>Recent content in Golang on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Golang -- godoc</title>
+        <link>https://dushaoshuai.github.io/posts/golang/golang_godoc/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/golang/golang_godoc/</guid>
+        <description>下载 1 $ go get golang.org/x/tools 安装 1 2 3 4 $ cd $GOPATH/pkg/mod/golang.org/x/tools@version/cmd/godoc $ go install $ which godoc /home/your_user_name/go/bin/godoc 使用 1 2 $ godoc -http=:6060 # standard library by default $ godoc -http=:6060 -goroot=$HOME/go # package in $GOPATH/src 在浏览器中访问 http://localhost:6060 静态分析 ( Static analysis ) 1 2 3 4 5 6 7 $ # The -analysis</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Golang -- Use module before it&#39;s published</title>
+        <link>https://dushaoshuai.github.io/posts/golang/golang_use_module_before_it_is_published/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/golang/golang_use_module_before_it_is_published/</guid>
+        <description>在模块发布之前使用模块 假设情景: 模块 a 已经写好, 未发布; 模块 b 要使用模块 a 模块 a 的 import path 是 example.com/a, 所在目录是 /home/user/Documents/go/modules/example.com/a (未发布的模块不能有版本号, 也就是目录</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

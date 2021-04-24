@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>MariaDB on Hugo Zzo Theme</title>
+    <link>https://dushaoshuai.github.io/categories/mariadb/</link>
+    <description>Recent content in MariaDB on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/categories/mariadb/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>[deprecated] Install and initialize MariaDB on ArchLinux</title>
+        <link>https://dushaoshuai.github.io/posts/dbms/mariadb/deprecated_install_and_init_mariadb/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/mariadb/deprecated_install_and_init_mariadb/</guid>
+        <description>这篇文章中有许多错误, 留下来只是记录一下走过的弯路, 最新的文章链接 Ref MariaDB on ArchLinux A MariaDB Primer MariaDB Basics Install 1 $ sudo pacman -S mariadb Initialize 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/MariaDB.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+        
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+        
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>MariaDB -- Install and initialize MariaDB on Manjaro</title>
+        <link>https://dushaoshuai.github.io/posts/dbms/mariadb/install_and_init_mariadb/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/mariadb/install_and_init_mariadb/</guid>
+        <description>Install 1  $ sudo pacman -S mariadb   Initialize 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32  $ sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql Installing MariaDB/MySQL system tables in &amp;#39;/var/lib/mysql&amp;#39; ... OK ​ To start mysqld at boot time you have to copy support-files/mysql.server to the right place for your system ​ ​ Two all-privilege accounts were created.</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/MariaDB.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+        
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+        
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

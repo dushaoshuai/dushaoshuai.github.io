@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Bash on Hugo Zzo Theme</title>
+    <link>https://dushaoshuai.github.io/categories/bash/</link>
+    <description>Recent content in Bash on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/categories/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Bash -- array</title>
+        <link>https://dushaoshuai.github.io/posts/shell/bash_array/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/shell/bash_array/</guid>
+        <description>Bash 仅提供一维数组 ( one-dimensional ). Bash 提供索引数组 (indexed array) 和关联数组 ( associative array ). Bash 的数组大小没有限制, 数组成员的索引和赋值也不必连续. 索引数组通过整数 ( 也包括算术</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/GNU_Linux.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Bash -- builtin command type</title>
+        <link>https://dushaoshuai.github.io/posts/linux_command/bash_builtin/bash_builtin_type/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/linux_command/bash_builtin/bash_builtin_type/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 $ type --help type: type [-afptP] name [name ...] Display information about command type. For each NAME, indicate how it would be interpreted if used as a command name. Options: -a display all locations containing an executable named NAME; includes aliases, builtins, and</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/GNU_Linux.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Linux -- decompress</title>
+        <link>https://dushaoshuai.github.io/posts/linux_command/zip_unzip/decompress/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/linux_command/zip_unzip/decompress/</guid>
+        <description>Linux command &amp;ndash; decompress .gz 1  $ gzip -d filename.gz    -d , --decompress decompress  1  $ gzip -dc filename.gz &amp;gt; outputFilename    by default, gzip compress FILES in-place -c , --stdout write on standard output, keep original files unchanged -k , --keep keep (don&amp;rsquo;t delete) input files  .tar 1  $ tar -xvf filename.tar    -x , --extract , --get extract files from an archive -v , --verbose verbosely list files processed -f , --file=ARCHIVE use archive file or device ARCHIVE  .</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/GNU_Linux.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Linux -- 从终端登录时 ~/.bashrc 不生效</title>
+        <link>https://dushaoshuai.github.io/posts/shell/bash_startup_files/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/shell/bash_startup_files/</guid>
+        <description>问题 今天在一台 Ubuntu 服务器上碰到了一个问题, 登录服务器后, ~/.bashrc 不生效, 但是执行下列命令之一后 ~/.bashrc 生效: 1 $ . ~/.bashrc # bash was invoked as interactive login shell 或者 1 $ bash # bash was invoked as interactive</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/GNU_Linux.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Linux command -- watch</title>
+        <link>https://dushaoshuai.github.io/posts/linux_command/procps_watch/linux-watch_command/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/linux_command/procps_watch/linux-watch_command/</guid>
+        <description>Linux command &amp;ndash; watch 1 2 $ man watch | grep -E -e &amp;#34;watch - &amp;#34; watch - execute a program periodically, showing output fullscreen 1 2 $ pacman -Qo watch /usr/bin/watch is owned by procps-ng 3.3.16-3 watch 重复地, 周期性地执行某个命令, 命令执行的结果全屏显示在终端上. watch</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/GNU_Linux.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

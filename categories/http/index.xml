@@ -23,11 +23,11 @@
       
       <item>
         <title>Beego -- Quick Start</title>
-        <link>https://dushaoshuai.github.io/posts/beego_quick_start/</link>
+        <link>https://dushaoshuai.github.io/posts/beego/beego_quick_start/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 15:53:11 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/beego_quick_start/</guid>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/beego/beego_quick_start/</guid>
         <description>Install Beego and bee tool 1 2 $ go get -u github.com/beego/beego/v2 $ go get -u github.com/beego/bee/v2 注意后面一定要加上 v2, v2 版本的模块名是以 v2 结束的, Beego 和 bee tool 的版本号要一致. bee tool 查看 bee tool 帮助: 1 2 3 4 5 6 $ bee</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -56,6 +56,138 @@
           
             
               <category>Beego</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>GitHub REST API</title>
+        <link>https://dushaoshuai.github.io/posts/http/github_rest_api/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/http/github_rest_api/</guid>
+        <description>Creating a personal access token 官方文档链接 Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password for Git over HTTPS, or can be used to authenticate to the API over Basic Authentication. 未经身份验证的客户端每小时最多可以发出 60 个请求, 经身</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/HTTP.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HTTP</category>
+            
+          
+            
+              <category>REST API</category>
+            
+          
+        
+        
+          
+            
+              <category>HTTP</category>
+            
+          
+        
+        
+          
+            
+              <category>HTTP</category>
+            
+          
+            
+              <category>REST API</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>HTTP message</title>
+        <link>https://dushaoshuai.github.io/posts/http/http_message/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/http/http_message/</guid>
+        <description>RFC 1945 RFC 2616 RFC 7540 HTTP 报文(message) 分为 请求报文(request message) 和 响应报文(response message) . 以 telnet 为例: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/HTTP.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HTTP</category>
+            
+          
+            
+              <category>Computer Network</category>
+            
+          
+        
+        
+          
+            
+              <category>HTTP</category>
+            
+          
+            
+              <category>Computer Network</category>
+            
+          
+        
+        
+          
+            
+              <category>HTTP</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>HTTP status code</title>
+        <link>https://dushaoshuai.github.io/posts/http/http_status_code/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/http/http_status_code/</guid>
+        <description>总览 1xx : Informational - 收到请求, 继续处理 2xx : Success - 操作被成功地接收、理解和接受 3xx : Redirection - 为了完成请求，必须采取进一步的措施 4xx : Client Error - 请求包含错误的语法, 或</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/HTTP.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HTTP</category>
+            
+          
+            
+              <category>Computer Network</category>
+            
+          
+        
+        
+          
+            
+              <category>HTTP</category>
+            
+          
+            
+              <category>Computer Network</category>
+            
+          
+        
+        
+          
+            
+              <category>HTTP</category>
             
           
         

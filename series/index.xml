@@ -22,12 +22,138 @@
 
       
       <item>
+        <title>Bash</title>
+        <link>https://dushaoshuai.github.io/series/bash/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/series/bash/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Beego</title>
         <link>https://dushaoshuai.github.io/series/beego/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
         
         <guid>https://dushaoshuai.github.io/series/beego/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Docker</title>
+        <link>https://dushaoshuai.github.io/series/docker/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/series/docker/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Golang</title>
+        <link>https://dushaoshuai.github.io/series/golang/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/series/golang/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>HTTP</title>
+        <link>https://dushaoshuai.github.io/series/http/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/series/http/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>MariaDB</title>
+        <link>https://dushaoshuai.github.io/series/mariadb/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/series/mariadb/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>REST API</title>
+        <link>https://dushaoshuai.github.io/series/rest-api/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/series/rest-api/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>GNU/Linux</title>
+        <link>https://dushaoshuai.github.io/series/gnu/linux/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/series/gnu/linux/</guid>
         <description></description>
         
         <dc:creator>shaouai</dc:creator>
