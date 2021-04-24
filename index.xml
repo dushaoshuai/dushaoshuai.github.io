@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Hugo Zzo Theme</title>
+    <link>https://dushaoshuai.github.io/</link>
+    <description>Recent content on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 10:53:14 +0000</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+
+      
+      <item>
+        <title>Beego -- Quick Start</title>
+        <link>https://dushaoshuai.github.io/posts/beego_quick_start/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/beego_quick_start/</guid>
+        <description>Install Beego and bee tool 1 2 $ go get -u github.com/beego/beego/v2 $ go get -u github.com/beego/bee/v2 注意后面一定要加上 v2, v2 版本的模块名是以 v2 结束的, Beego 和 bee tool 的版本号要一致. bee tool 查看 bee tool 帮助: 1 2 3 4 5 6 $ bee</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Beego.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Beego</category>
+            
+          
+        
+        
+          
+            
+              <category>Beego</category>
+            
+          
+            
+              <category>HTTP</category>
+            
+          
+        
+        
+          
+            
+              <category>Beego</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

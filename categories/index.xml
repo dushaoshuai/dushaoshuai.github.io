@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Categories on Hugo Zzo Theme</title>
+    <link>https://dushaoshuai.github.io/categories/</link>
+    <description>Recent content in Categories on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Beego</title>
+        <link>https://dushaoshuai.github.io/categories/beego/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/categories/beego/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>HTTP</title>
+        <link>https://dushaoshuai.github.io/categories/http/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/categories/http/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
