@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>C on Hugo Zzo Theme</title>
+    <link>https://dushaoshuai.github.io/series/c/</link>
+    <description>Recent content in C on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/series/c/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>C -- comma operator</title>
+        <link>https://dushaoshuai.github.io/posts/c/c-comma_operator/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/c/c-comma_operator/</guid>
+        <description>Comma operator for 循环使用 ; 分隔的三个 control expression 控制循环过程. 1 2 3 4 for (initialization; test; update) statement /* can be a simple statement or a compound statement */ for (n = 0; n &amp;lt; 10; n++) printf(&amp;#34;%d %d\n&amp;#34;, n, 2 * n + 1) /* &amp;#34;,&amp;#34; here is not comma operator, but separator, see below */</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/C.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>C</category>
+            
+          
+        
+        
+          
+            
+              <category>C</category>
+            
+          
+        
+        
+          
+            
+              <category>C</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

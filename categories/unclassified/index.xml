@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>unclassified on Hugo Zzo Theme</title>
+    <link>https://dushaoshuai.github.io/categories/unclassified/</link>
+    <description>Recent content in unclassified on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/categories/unclassified/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Github pages</title>
+        <link>https://dushaoshuai.github.io/posts/miscellaneous/github_pages/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/miscellaneous/github_pages/</guid>
+        <description>仓库名必须是 &amp;lt;user&amp;gt;.github.io 或者 &amp;lt;organization&amp;gt;.github.io . 对于 GitHub Free 和 GitHub Free for organizations , 必须是 public repositories 才行. GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server. For more information, see &amp;ldquo;GitHub&amp;rsquo;s products.&amp;rdquo; github pages</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/unclassified.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+          
+            
+              <category>unclassified</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Gnome Shell -- super key doesn&#39;t work</title>
+        <link>https://dushaoshuai.github.io/posts/miscellaneous/gnome_shell_super_key_does_not_work/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/miscellaneous/gnome_shell_super_key_does_not_work/</guid>
+        <description>https://askubuntu.com/a/1179193/1213202
+Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/unclassified.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+          
+            
+              <category>unclassified</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Send touch events to Android device via ADB</title>
+        <link>https://dushaoshuai.github.io/posts/miscellaneous/adb_touch_events/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/miscellaneous/adb_touch_events/</guid>
+        <description>发送屏幕点击事件 (adb shell input tap x1 y1) 1 $ adb shell input tap 1750 920 发送屏幕滑动事件 (adb shell input tap x1 y1 x2 y2) 1 $ adb shell input swipe 275 845 474 835</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/unclassified.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+          
+            
+              <category>unclassified</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>在 Ubuntu 上安装 gatk4</title>
+        <link>https://dushaoshuai.github.io/posts/miscellaneous/gatk4_on_ubuntu/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/miscellaneous/gatk4_on_ubuntu/</guid>
+        <description>这篇是给某人写的 安装必要依赖 1 2 3 sudo apt update sudo apt upgrade sudo apt install default-jdk r-cran-littler python3 安装 Miniconda 下载安装器 链接 把安装器拷贝到虚拟机相应目录下 选好目录, 别把家目录弄得太乱了 (</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/unclassified.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+          
+            
+              <category>unclassified</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -22,6 +22,82 @@
 
       
       <item>
+        <title>Golang -- Control structure</title>
+        <link>https://dushaoshuai.github.io/posts/golang/golang-control_structure/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/golang/golang-control_structure/</guid>
+        <description>Control structures Go 的控制结构和 C 的相似, 但却有很大不同. 在 Go 中, 没有 do-while 和 while 循环, 只有一个全能选手 for 循环; switch 语句更灵活; 像 for 一样, if 和 switch 接受可选的 initialization 语句;</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Golang -- gocv</title>
+        <link>https://dushaoshuai.github.io/posts/miscellaneous/gocv/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/miscellaneous/gocv/</guid>
+        <description>gocv Package gocv is a wrapper around the OpenCV 4.x computer vision library. It provides a Go language interface to the latest version of OpenCV. Install gocv on ArchLinux 1 2 3 $ sudo pacman -S opencv $ sudo pacman -S vtk $ go get -u -d gocv.io/x/gocv vtk is an optdep of opencv, it must be installed to keep opencv working on Arch, ref1 ref2 检查是否</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/gocvlogo.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+            
+              <category>opencv</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Golang -- godoc</title>
         <link>https://dushaoshuai.github.io/posts/golang/golang_godoc/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
@@ -29,6 +105,42 @@
         <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/golang/golang_godoc/</guid>
         <description>下载 1 $ go get golang.org/x/tools 安装 1 2 3 4 $ cd $GOPATH/pkg/mod/golang.org/x/tools@version/cmd/godoc $ go install $ which godoc /home/your_user_name/go/bin/godoc 使用 1 2 $ godoc -http=:6060 # standard library by default $ godoc -http=:6060 -goroot=$HOME/go # package in $GOPATH/src 在浏览器中访问 http://localhost:6060 静态分析 ( Static analysis ) 1 2 3 4 5 6 7 $ # The -analysis</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Golang -- package initialization</title>
+        <link>https://dushaoshuai.github.io/posts/golang/golang-package_initialization/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/golang/golang-package_initialization/</guid>
+        <description>参考 Program initialization and execution 如果包 a 导入了别的包, 那么导入的包会在包 a 之前按照导入的顺序初始化, 如果有依赖关系存在, 被依赖的包先初始化. 因此在一个程序中 main 包</description>
         
         <dc:creator>dushaouai</dc:creator>
         <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
