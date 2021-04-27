@@ -14,12 +14,30 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Apr 2021 11:21:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Golang</title>
+        <link>https://dushaoshuai.github.io/tags/golang/</link>
+        <pubDate>Tue, 27 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/tags/golang/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Bash</title>
@@ -136,24 +154,6 @@
         <author>aouaidug@gmail.com (shaouai)</author>
         
         <guid>https://dushaoshuai.github.io/tags/git/</guid>
-        <description></description>
-        
-        <dc:creator>shaouai</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Golang</title>
-        <link>https://dushaoshuai.github.io/tags/golang/</link>
-        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
-        <author>aouaidug@gmail.com (shaouai)</author>
-        
-        <guid>https://dushaoshuai.github.io/tags/golang/</guid>
         <description></description>
         
         <dc:creator>shaouai</dc:creator>

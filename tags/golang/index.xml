@@ -14,12 +14,50 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Apr 2021 11:21:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Golang -- $GOOS and $GOARCH</title>
+        <link>https://dushaoshuai.github.io/posts/golang/golang-goos_goarch/</link>
+        <pubDate>Tue, 27 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Tue, 27 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/golang/golang-goos_goarch/</guid>
+        <description>$GOOS is the name of the target operating system.
+$GOARCH is the compilation architecture.
+Three ways to find the values of $GOOS and $GOARCH :  official documentation /usr/lib/go/src/go/build/syslist.go go tool dist list [-json]  ref https://stackoverflow.com/q/20728767/15003321</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Golang -- Control structure</title>

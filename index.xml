@@ -42,6 +42,44 @@
 
       
       <item>
+        <title>Golang -- $GOOS and $GOARCH</title>
+        <link>https://dushaoshuai.github.io/posts/golang/golang-goos_goarch/</link>
+        <pubDate>Tue, 27 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Tue, 27 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/golang/golang-goos_goarch/</guid>
+        <description>$GOOS is the name of the target operating system.
+$GOARCH is the compilation architecture.
+Three ways to find the values of $GOOS and $GOARCH :  official documentation /usr/lib/go/src/go/build/syslist.go go tool dist list [-json]  ref https://stackoverflow.com/q/20728767/15003321</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>[deprecated] Install and initialize MariaDB on Manjaro</title>
         <link>https://dushaoshuai.github.io/posts/dbms/mariadb/deprecated_install_and_init_mariadb/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>

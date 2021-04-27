@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dushaoshuai.github.io/categories/</loc>
+    <lastmod>2021-04-27T11:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/tags/golang/</loc>
+    <lastmod>2021-04-27T11:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/series/golang/</loc>
+    <lastmod>2021-04-27T11:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/categories/golang/</loc>
+    <lastmod>2021-04-27T11:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/posts/golang/golang-goos_goarch/</loc>
+    <lastmod>2021-04-27T11:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/series/</loc>
+    <lastmod>2021-04-27T11:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/tags/</loc>
+    <lastmod>2021-04-27T11:21:00+08:00</lastmod>
+  </url><url>
     <loc>https://dushaoshuai.github.io/archive/</loc>
     <lastmod>2021-04-24T15:53:11+08:00</lastmod>
   </url><url>
@@ -50,9 +71,6 @@
     <loc>https://dushaoshuai.github.io/posts/c/c-comma_operator/</loc>
     <lastmod>2021-04-24T11:21:00+08:00</lastmod>
   </url><url>
-    <loc>https://dushaoshuai.github.io/categories/</loc>
-    <lastmod>2021-04-24T23:10:49+08:00</lastmod>
-  </url><url>
     <loc>https://dushaoshuai.github.io/tags/computer-network/</loc>
     <lastmod>2021-04-24T23:10:49+08:00</lastmod>
   </url><url>
@@ -94,15 +112,6 @@
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/miscellaneous/gnome_shell_super_key_does_not_work/</loc>
     <lastmod>2021-04-24T11:21:00+08:00</lastmod>
-  </url><url>
-    <loc>https://dushaoshuai.github.io/tags/golang/</loc>
-    <lastmod>2021-04-24T23:10:49+08:00</lastmod>
-  </url><url>
-    <loc>https://dushaoshuai.github.io/series/golang/</loc>
-    <lastmod>2021-04-24T23:10:49+08:00</lastmod>
-  </url><url>
-    <loc>https://dushaoshuai.github.io/categories/golang/</loc>
-    <lastmod>2021-04-24T23:10:49+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/golang/golang-control_structure/</loc>
     <lastmod>2021-04-24T11:21:00+08:00</lastmod>
@@ -166,12 +175,6 @@
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/miscellaneous/adb_touch_events/</loc>
     <lastmod>2021-04-24T11:21:00+08:00</lastmod>
-  </url><url>
-    <loc>https://dushaoshuai.github.io/series/</loc>
-    <lastmod>2021-04-24T23:10:49+08:00</lastmod>
-  </url><url>
-    <loc>https://dushaoshuai.github.io/tags/</loc>
-    <lastmod>2021-04-24T23:10:49+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/unclassified/</loc>
     <lastmod>2021-04-24T11:21:00+08:00</lastmod>
