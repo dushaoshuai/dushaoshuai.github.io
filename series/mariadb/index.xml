@@ -26,7 +26,7 @@
         <link>https://dushaoshuai.github.io/posts/dbms/mariadb/deprecated_install_and_init_mariadb/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/dbms/mariadb/deprecated_install_and_init_mariadb/</guid>
         <description>这篇文章中有许多错误, 留下来只是记录一下走过的弯路, 最新的文章链接 Ref MariaDB on ArchLinux A MariaDB Primer MariaDB Basics Install 1 $ sudo pacman -S mariadb Initialize 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20</description>
         

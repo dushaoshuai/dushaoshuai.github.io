@@ -1773,14 +1773,14 @@
       <h2 id="creating-a-personal-access-token">Creating a personal access token</h2>
 <div class="box"><a href="https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token">官方文档链接</a><br />
 Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password for Git over HTTPS, or can be used to <a href="https://docs.github.com/v3/auth/#basic-authentication">authenticate to the API over Basic Authentication</a>.</div>
-<p>未经身份验证的客户端每小时最多可以发出 <code>60</code> 个请求, 经身份验证的客户端每小时最多可以发出 <code>5000</code> 个请求, 具体在响应报文的 <code>4</code> 个首部行中显示:</p>
+<p>未经身份验证的客户端每小时最多可以发出 60 个请求, 经身份验证的客户端每小时最多可以发出 5000 个请求, 具体在响应报文的 4 个首部行中显示:</p>
 <ul>
 <li><code>x-ratelimit-limit</code> :           5000</li>
 <li><code>x-ratelimit-remaining</code> :   4996</li>
 <li><code>x-ratelimit-reset</code> :           1614832305</li>
 <li><code>x-ratelimit-used</code> :              4</li>
 </ul>
-<p>经身份验证的客户端还可以进行更过种类, 更高权限的操作.</p>
+<p>经身份验证的客户端还可以进行更多种类, 更高权限的操作.</p>
 <h2 id="将-personal-access-token-保存在-bash-变量中">将 personal access token 保存在 bash 变量中</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1909,7 +1909,7 @@ $ curl -i <span class="se">\
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">$ curl -i <span class="se">\
 </span><span class="se"></span> -u your_user_name:<span class="nv">$gitoken</span> <span class="se">\
-</span><span class="se"></span> -H <span class="s2">&#34;Accept: application/vnd.github.v3+json&#34;</span>                 <span class="c1"># &#34;accept&#34; is a parameter in request header</span>
+</span><span class="se"></span> -H <span class="s2">&#34;Accept: application/vnd.github.v3+json&#34;</span> <span class="se">\ </span>              <span class="c1"># &#34;accept&#34; is a parameter in request header</span>
  https://api.github.com/search/issues<span class="se">\
 </span><span class="se"></span>?q<span class="o">=</span>KEYWORD_1+KEYWORD_N+QUALIFIER_1+QUALIFIER_N<span class="p">&amp;</span>PARAMETER_N   <span class="c1"># &#34;q&#34; is also a parameter in query string</span>
 </code></pre></td></tr></table>

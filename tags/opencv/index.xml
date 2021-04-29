@@ -26,7 +26,7 @@
         <link>https://dushaoshuai.github.io/posts/miscellaneous/gocv/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/miscellaneous/gocv/</guid>
         <description>gocv Package gocv is a wrapper around the OpenCV 4.x computer vision library. It provides a Go language interface to the latest version of OpenCV. Install gocv on ArchLinux 1 2 3 $ sudo pacman -S opencv $ sudo pacman -S vtk $ go get -u -d gocv.io/x/gocv vtk is an optdep of opencv, it must be installed to keep opencv working on Arch, ref1 ref2 检查是否</description>
         

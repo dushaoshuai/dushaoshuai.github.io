@@ -26,7 +26,7 @@
         <link>https://dushaoshuai.github.io/posts/golang/golang-goos_goarch/</link>
         <pubDate>Tue, 27 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Tue, 27 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/golang/golang-goos_goarch/</guid>
         <description>$GOOS is the name of the target operating system.
 $GOARCH is the compilation architecture.
@@ -64,7 +64,7 @@ Three ways to find the values of $GOOS and $GOARCH :  official documentation /us
         <link>https://dushaoshuai.github.io/posts/golang/golang-control_structure/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/golang/golang-control_structure/</guid>
         <description>Control structures Go 的控制结构和 C 的相似, 但却有很大不同. 在 Go 中, 没有 do-while 和 while 循环, 只有一个全能选手 for 循环; switch 语句更灵活; 像 for 一样, if 和 switch 接受可选的 initialization 语句;</description>
         
@@ -100,7 +100,7 @@ Three ways to find the values of $GOOS and $GOARCH :  official documentation /us
         <link>https://dushaoshuai.github.io/posts/miscellaneous/gocv/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/miscellaneous/gocv/</guid>
         <description>gocv Package gocv is a wrapper around the OpenCV 4.x computer vision library. It provides a Go language interface to the latest version of OpenCV. Install gocv on ArchLinux 1 2 3 $ sudo pacman -S opencv $ sudo pacman -S vtk $ go get -u -d gocv.io/x/gocv vtk is an optdep of opencv, it must be installed to keep opencv working on Arch, ref1 ref2 检查是否</description>
         
@@ -176,7 +176,7 @@ Three ways to find the values of $GOOS and $GOARCH :  official documentation /us
         <link>https://dushaoshuai.github.io/posts/golang/golang-package_initialization/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/golang/golang-package_initialization/</guid>
         <description>参考 Program initialization and execution 如果包 a 导入了别的包, 那么导入的包会在包 a 之前按照导入的顺序初始化, 如果有依赖关系存在, 被依赖的包先初始化. 因此在一个程序中 main 包</description>
         

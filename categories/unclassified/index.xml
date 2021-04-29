@@ -26,7 +26,7 @@
         <link>https://dushaoshuai.github.io/posts/miscellaneous/github_pages/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/miscellaneous/github_pages/</guid>
         <description>仓库名必须是 &amp;lt;user&amp;gt;.github.io 或者 &amp;lt;organization&amp;gt;.github.io . 对于 GitHub Free 和 GitHub Free for organizations , 必须是 public repositories 才行. GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server. For more information, see &amp;ldquo;GitHub&amp;rsquo;s products.&amp;rdquo; github pages</description>
         
@@ -50,7 +50,7 @@
         <link>https://dushaoshuai.github.io/posts/miscellaneous/gnome_shell_super_key_does_not_work/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/miscellaneous/gnome_shell_super_key_does_not_work/</guid>
         <description>https://askubuntu.com/a/1179193/1213202
 Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .</description>
@@ -75,7 +75,7 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <link>https://dushaoshuai.github.io/posts/miscellaneous/adb_touch_events/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/miscellaneous/adb_touch_events/</guid>
         <description>发送屏幕点击事件 (adb shell input tap x1 y1) 1 $ adb shell input tap 1750 920 发送屏幕滑动事件 (adb shell input tap x1 y1 x2 y2) 1 $ adb shell input swipe 275 845 474 835</description>
         
@@ -99,7 +99,7 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <link>https://dushaoshuai.github.io/posts/miscellaneous/gatk4_on_ubuntu/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/miscellaneous/gatk4_on_ubuntu/</guid>
         <description>这篇是给某人写的 安装必要依赖 1 2 3 sudo apt update sudo apt upgrade sudo apt install default-jdk r-cran-littler python3 安装 Miniconda 下载安装器 链接 把安装器拷贝到虚拟机相应目录下 选好目录, 别把家目录弄得太乱了 (</description>
         
