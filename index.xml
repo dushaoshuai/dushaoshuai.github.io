@@ -392,9 +392,9 @@ Three ways to find the values of $GOOS and $GOARCH :  official documentation /us
         <link>https://dushaoshuai.github.io/posts/http/github_rest_api/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <atom:modified>Thu, 29 Apr 2021 12:57:14 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/http/github_rest_api/</guid>
-        <description>Creating a personal access token 官方文档链接 Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password for Git over HTTPS, or can be used to authenticate to the API over Basic Authentication. 未经身份验证的客户端每小时最多可以发出 60 个请求, 经身</description>
+        <description>注意 &amp;amp; 是 Bash 的元字符, 如果 URL 中有 &amp;amp; 的话, 需要将其转义: \&amp;amp;sort=comment 或者 &amp;quot;&amp;amp;sort=comment&amp;quot; Creating a personal access token 官方文档链接 Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password for Git over HTTPS, or can be used to authenticate to the</description>
         
         <dc:creator>dushaouai</dc:creator>
         <media:content url="https://dushaoshuai.github.io/images/feature/HTTP.png" medium="image"><media:title type="html">featured image</media:title></media:content>
