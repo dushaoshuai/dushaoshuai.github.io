@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>algorithm on Hugo Zzo Theme</title>
+    <link>https://dushaoshuai.github.io/series/algorithm/</link>
+    <description>Recent content in algorithm on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/series/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Data Structures and Algorithm -- BST</title>
+        <link>https://dushaoshuai.github.io/posts/algorithm/bst/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/bst/</guid>
+        <description>Definition for a Binary Search Tree node  1 2 3 4  type treeNode struct { key int left, right *treeNode }       &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;ea43b61ece32aeb5\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;); codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;); } for (var i = 0; i 0) { codetabContents[0].</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/algorithm.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>tree</category>
+            
+          
+            
+              <category>binary tree</category>
+            
+          
+            
+              <category>BST</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

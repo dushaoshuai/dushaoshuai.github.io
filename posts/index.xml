@@ -271,6 +271,50 @@ Three ways to find the values of $GOOS and $GOARCH :  official documentation /us
       </item>
       
       <item>
+        <title>Data Structures and Algorithm -- BST</title>
+        <link>https://dushaoshuai.github.io/posts/algorithm/bst/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/bst/</guid>
+        <description>Definition for a Binary Search Tree node  1 2 3 4  type treeNode struct { key int left, right *treeNode }       &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;ea43b61ece32aeb5\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;); codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;); } for (var i = 0; i 0) { codetabContents[0].</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/algorithm.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>tree</category>
+            
+          
+            
+              <category>binary tree</category>
+            
+          
+            
+              <category>BST</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Docker -- Quick start on ArchLinux</title>
         <link>https://dushaoshuai.github.io/posts/docker/docker_quick_start/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
@@ -883,6 +927,66 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
           
         
         
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>RDBMS Terminology</title>
+        <link>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</guid>
+        <description>DBMS(database management system) : 维护数据库的软件系统. RDBMS(relational database management system) : 维护关系型数据库的软件系统. 每张 table 由许多 row 和 column 组成. row &amp;ndash; entity &amp;ndash; record &amp;ndash; tuple column &amp;ndash; attribute &amp;ndash; field Hierarchical Database Model(分层数据</description>
+        
+        <dc:creator>shaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/MariaDB.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>RDBMS</category>
+            
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>RDBMS</category>
+            
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>RDBMS</category>
+            
           
             
               <category>MariaDB</category>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>DBMS on Hugo Zzo Theme</title>
+    <link>https://dushaoshuai.github.io/categories/dbms/</link>
+    <description>Recent content in DBMS on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/categories/dbms/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>RDBMS Terminology</title>
+        <link>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</guid>
+        <description>DBMS(database management system) : 维护数据库的软件系统. RDBMS(relational database management system) : 维护关系型数据库的软件系统. 每张 table 由许多 row 和 column 组成. row &amp;ndash; entity &amp;ndash; record &amp;ndash; tuple column &amp;ndash; attribute &amp;ndash; field Hierarchical Database Model(分层数据</description>
+        
+        <dc:creator>shaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/MariaDB.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>RDBMS</category>
+            
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>RDBMS</category>
+            
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>RDBMS</category>
+            
+          
+            
+              <category>MariaDB</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

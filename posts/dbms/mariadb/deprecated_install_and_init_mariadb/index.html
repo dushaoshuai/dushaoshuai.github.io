@@ -1358,7 +1358,7 @@
     <meta property="twitter:description" content="[deprecated] Install and initialize MariaDB on Manjaro. Much errors. Just to record.">
   
 
-<meta name="generator" content="Hugo 0.82.0" />
+<meta name="generator" content="Hugo 0.83.1" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -2033,11 +2033,11 @@ systemd<span class="o">[</span>1<span class="o">]</span>: Failed to start MariaD
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">### Editing /etc/systemd/system/mariadb.service.d/override.conf</span>
 <span class="c1">### Anything between here and the comment below will become the new contents of the file</span>
-       
+
 <span class="o">[</span>Service<span class="o">]</span>
 <span class="c1"># Number of files limit. previously [mysqld_safe] open-files-limit</span>
 <span class="nv">LimitNOFILE</span><span class="o">=</span><span class="m">100000</span>
-       
+
 <span class="c1">### Lines below this comment will be discarded</span>
 </code></pre></td></tr></table>
 </div>
@@ -2391,6 +2391,10 @@ systemd<span class="o">[</span>1<span class="o">]</span>: Failed to start MariaD
         
         <li>
           <a href="/posts/dbms/mariadb/install_and_init_mariadb/" class="related__link">MariaDB -- Install and initialize MariaDB on Manjaro</a>
+        </li>
+        
+        <li>
+          <a href="/posts/dbms/common/rdbms_terminology/" class="related__link">RDBMS Terminology</a>
         </li>
         
     </ul>
