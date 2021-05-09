@@ -26,7 +26,7 @@
         <link>https://dushaoshuai.github.io/posts/http/github_rest_api/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 29 Apr 2021 12:57:14 +0800</atom:modified>
+        <atom:modified>Sun, 09 May 2021 08:49:53 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/http/github_rest_api/</guid>
         <description>注意 &amp;amp; 是 Bash 的元字符, 如果 URL 中有 &amp;amp; 的话, 需要将其转义: \&amp;amp;sort=comment 或者 &amp;quot;&amp;amp;sort=comment&amp;quot; Creating a personal access token 官方文档链接 Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password for Git over HTTPS, or can be used to authenticate to the</description>
         
