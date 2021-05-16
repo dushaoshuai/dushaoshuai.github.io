@@ -21,13 +21,57 @@
 
       
       <item>
+        <title>Data Structures and Algorithm -- splay tree</title>
+        <link>https://dushaoshuai.github.io/posts/algorithm/splay_tree/</link>
+        <pubDate>Sun, 16 May 2021 12:01:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sun, 16 May 2021 12:01:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/splay_tree/</guid>
+        <description>性质: 伸展树 (splay tree) 是自平衡的二叉查找树. 访问一个节点 (插入, 查找, 删除) 导致此节点及其附近节点被向上伸展到根处, 再次访问此节点所花费的时间变少</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/algorithm.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>tree</category>
+            
+          
+            
+              <category>binary tree</category>
+            
+          
+            
+              <category>splay tree</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Data Structures and Algorithm -- BST</title>
         <link>https://dushaoshuai.github.io/posts/algorithm/bst/</link>
         <pubDate>Sun, 09 May 2021 09:01:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sun, 09 May 2021 08:49:53 +0800</atom:modified>
+        <atom:modified>Sun, 09 May 2021 09:04:09 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/algorithm/bst/</guid>
-        <description>Definition for a Binary Search Tree node  1 2 3 4  type treeNode struct { key int left, right *treeNode }       &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;ea43b61ece32aeb5\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;); codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;); } for (var i = 0; i 0) { codetabContents[0].</description>
+        <description>性质: 二叉查找树 (BST) 是一棵二叉树, 对于树中每个节点, 其关键字值大于其左子树中所有关键字值, 小于其右子树中所有关键字值. https://en.wikipedia.org/wiki/Binary_search_tree https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/ 节点定义 Definition for a Binary Search Tree</description>
         
         <dc:creator>dushaouai</dc:creator>
         <media:content url="https://dushaoshuai.github.io/images/feature/algorithm.png" medium="image"><media:title type="html">featured image</media:title></media:content>

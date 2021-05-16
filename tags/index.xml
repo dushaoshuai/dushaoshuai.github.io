@@ -14,7 +14,7 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 09 May 2021 09:01:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 May 2021 12:01:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -24,10 +24,46 @@
       <item>
         <title>binary tree</title>
         <link>https://dushaoshuai.github.io/tags/binary-tree/</link>
-        <pubDate>Sun, 09 May 2021 09:01:00 +0800</pubDate>
+        <pubDate>Sun, 16 May 2021 12:01:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
         
         <guid>https://dushaoshuai.github.io/tags/binary-tree/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>splay tree</title>
+        <link>https://dushaoshuai.github.io/tags/splay-tree/</link>
+        <pubDate>Sun, 16 May 2021 12:01:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/tags/splay-tree/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>tree</title>
+        <link>https://dushaoshuai.github.io/tags/tree/</link>
+        <pubDate>Sun, 16 May 2021 12:01:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/tags/tree/</guid>
         <description></description>
         
         <dc:creator>shaouai</dc:creator>
@@ -46,24 +82,6 @@
         <author>aouaidug@gmail.com (shaouai)</author>
         
         <guid>https://dushaoshuai.github.io/tags/bst/</guid>
-        <description></description>
-        
-        <dc:creator>shaouai</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>tree</title>
-        <link>https://dushaoshuai.github.io/tags/tree/</link>
-        <pubDate>Sun, 09 May 2021 09:01:00 +0800</pubDate>
-        <author>aouaidug@gmail.com (shaouai)</author>
-        
-        <guid>https://dushaoshuai.github.io/tags/tree/</guid>
         <description></description>
         
         <dc:creator>shaouai</dc:creator>

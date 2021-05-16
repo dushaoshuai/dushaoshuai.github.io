@@ -1336,7 +1336,7 @@
 <meta name="keywords" content="tree,binary tree,BST">
 
 <meta name="created" content="2021-05-09T09:01:00&#43;0800">
-<meta name="modified" content="2021-05-09T08:49:53&#43;0800">
+<meta name="modified" content="2021-05-09T09:04:09&#43;0800">
 <meta property="article:published_time" content="2021-05-09T09:01:00&#43;0800">
 
 <meta name="author" content="dushaouai">
@@ -1395,7 +1395,7 @@
     "@type": "WebPage",
     "headline": "Data Structures and Algorithm -- BST",
     "datePublished": "2021-05-09T09:01:00+08:00",
-    "dateModified": "2021-05-09T08:49:53+08:00",
+    "dateModified": "2021-05-09T09:04:09+08:00",
     "url" : "https://dushaoshuai.github.io/posts/algorithm/bst/",
     "description": "Binary Search Tree",
     "keywords": ["tree","binary tree","BST"],
@@ -1746,7 +1746,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;May 9, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;5&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">✍️&nbsp;dushaouai</span>
   
@@ -1772,16 +1772,27 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      
-<div id="ea43b61ece32aeb5" class="codetab">
+      <p>性质: 二叉查找树 (BST) 是一棵二叉树, 对于树中每个节点, 其关键字值大于其左子树中所有关键字值, 小于其右子树中所有关键字值.</p>
+<ul>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Binary_search_tree">https://en.wikipedia.org/wiki/Binary_search_tree</a></p>
+</li>
+<li>
+<p><a href="https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/">https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/</a></p>
+</li>
+</ul>
+<h6 id="节点定义">节点定义</h6>
+
+<div id="e9c8037dd26ce522" class="codetab">
   <div class="codetab__links">
     
-      <button class="codetab__link" aria-label="Tab link">Definition for a Binary Search Tree node</button>
+      <button class="codetab__link" aria-label="Tab link">Definition for a Binary Search Tree Node</button>
     
   </div>
   
+
   
-<div id="a70fc26c0878b07b" class="codetab__content">
+<div id="ec959a95da72e33c" class="codetab__content">
   <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1804,7 +1815,7 @@
 <script>
   'use strict';
 
-  var containerId = JSON.parse("\"ea43b61ece32aeb5\"");
+  var containerId = JSON.parse("\"e9c8037dd26ce522\"");
   var containerElem = document.getElementById(containerId);
   var codetabLinks = null;
   var codetabContents = null;
@@ -1838,6 +1849,7 @@
     codetabContents[0].style.display = 'block';
   }
 </script>
+<h6 id="查找-递归实现">查找, 递归实现</h6>
 
 <div id="8482c31b9c1a5b91" class="codetab">
   <div class="codetab__links">
@@ -1914,6 +1926,7 @@
     codetabContents[0].style.display = 'block';
   }
 </script>
+<h6 id="查找-迭代实现1">查找, 迭代实现1</h6>
 
 <div id="e9acbcf9988f2dc8" class="codetab">
   <div class="codetab__links">
@@ -1998,6 +2011,7 @@
     codetabContents[0].style.display = 'block';
   }
 </script>
+<h6 id="查找-迭代实现2">查找, 迭代实现2</h6>
 
 <div id="ba089aa38b7e250e" class="codetab">
   <div class="codetab__links">
@@ -2090,6 +2104,7 @@
     codetabContents[0].style.display = 'block';
   }
 </script>
+<h6 id="插入-递归实现">插入, 递归实现</h6>
 
 <div id="90bb7c44d5a328d2" class="codetab">
   <div class="codetab__links">
@@ -2172,6 +2187,7 @@
     codetabContents[0].style.display = 'block';
   }
 </script>
+<h6 id="插入-迭代实现">插入, 迭代实现</h6>
 
 <div id="5d5151dc6f9cc0cc" class="codetab">
   <div class="codetab__links">
@@ -2280,8 +2296,9 @@
     codetabContents[0].style.display = 'block';
   }
 </script>
+<h6 id="删除-迭代实现">删除, 迭代实现</h6>
 
-<div id="1054a399031f90b8" class="codetab">
+<div id="8a3a8750583dc10f" class="codetab">
   <div class="codetab__links">
     
       <button class="codetab__link" aria-label="Tab link">Delete Node in a Binary Search Tree : Iteration</button>
@@ -2289,7 +2306,7 @@
   </div>
   
   
-<div id="c09ac61ed68ca465" class="codetab__content">
+<div id="01810939d569075a" class="codetab__content">
   <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -2367,7 +2384,7 @@
       <span class="p">}</span>
   <span class="p">}</span>
   <span class="k">if</span> <span class="nx">parentOfTarget</span> <span class="o">==</span> <span class="kc">nil</span> <span class="p">{</span> <span class="c1">// root is the target node
-</span><span class="c1"></span>      <span class="k">return</span> <span class="nf">deleteTargetNode</span><span class="p">(</span><span class="nx">target</span><span class="p">)</span>
+</span><span class="c1"></span>      <span class="k">return</span> <span class="nf">deleteTargetNode</span><span class="p">(</span><span class="nx">root</span><span class="p">)</span>
   <span class="p">}</span>
   <span class="k">if</span> <span class="nx">target</span> <span class="o">==</span> <span class="kc">nil</span> <span class="p">{</span> <span class="c1">// target node was not found
 </span><span class="c1"></span>      <span class="k">return</span> <span class="nx">root</span>
@@ -2416,7 +2433,7 @@
 <script>
   'use strict';
 
-  var containerId = JSON.parse("\"1054a399031f90b8\"");
+  var containerId = JSON.parse("\"8a3a8750583dc10f\"");
   var containerElem = document.getElementById(containerId);
   var codetabLinks = null;
   var codetabContents = null;
@@ -2660,6 +2677,13 @@
       </a>
     
     <div class="grow"></div>
+    
+      <a href="https://dushaoshuai.github.io/posts/algorithm/splay_tree/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">Data Structures and Algorithm -- splay tree</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
     
   
 </nav>
@@ -3757,7 +3781,19 @@ document.addEventListener('DOMContentLoaded', function () {
           
         </div>
         <div class="toc toc__outer " data-dir="ltr" data-folding="false" data-ani="true">
-          <nav id="TableOfContents"></nav>
+          <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
         </div>
       
     
