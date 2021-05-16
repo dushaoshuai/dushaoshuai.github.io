@@ -1336,7 +1336,7 @@
 <meta name="keywords" content="tree,binary tree,BST">
 
 <meta name="created" content="2021-05-09T09:01:00&#43;0800">
-<meta name="modified" content="2021-05-09T09:04:09&#43;0800">
+<meta name="modified" content="2021-05-16T11:52:06&#43;0800">
 <meta property="article:published_time" content="2021-05-09T09:01:00&#43;0800">
 
 <meta name="author" content="dushaouai">
@@ -1395,7 +1395,7 @@
     "@type": "WebPage",
     "headline": "Data Structures and Algorithm -- BST",
     "datePublished": "2021-05-09T09:01:00+08:00",
-    "dateModified": "2021-05-09T09:04:09+08:00",
+    "dateModified": "2021-05-16T11:52:06+08:00",
     "url" : "https://dushaoshuai.github.io/posts/algorithm/bst/",
     "description": "Binary Search Tree",
     "keywords": ["tree","binary tree","BST"],
@@ -1746,6 +1746,8 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;May 9, 2021 </time>
   
+  &nbsp;&middot;&nbsp; <time class="single__info" title="Modified At"> 📝&nbsp;May 16, 2021 </time>
+  
   &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">✍️&nbsp;dushaouai</span>
@@ -2071,6 +2073,160 @@
   'use strict';
 
   var containerId = JSON.parse("\"ba089aa38b7e250e\"");
+  var containerElem = document.getElementById(containerId);
+  var codetabLinks = null;
+  var codetabContents = null;
+  var ids = [];
+
+  if (containerElem) {
+    codetabLinks = containerElem.querySelectorAll('.codetab__link');
+    codetabContents = containerElem.querySelectorAll('.codetab__content');
+  }
+
+  for (var i = 0; i < codetabContents.length; i++) {
+    ids = ids.concat(codetabContents[i].getAttribute('id'));
+    codetabContents[i].style.display = 'none';
+
+    if (0 === parseInt(i, 10) && !codetabContents[i].classList.contains('active')) {
+      codetabContents[i].classList.add('active');
+    }
+  }
+
+  for (var i = 0; i < codetabLinks.length; i++) {
+    codetabLinks[i].setAttribute('id', ids[i]);
+
+    if (0 === parseInt(i, 10) && !codetabLinks[i].classList.contains('active')) {
+      codetabLinks[i].classList.add('active');
+    } else {
+      codetabLinks[i].classList.remove('active');
+    }
+  }
+
+  if (codetabContents.length > 0) {
+    codetabContents[0].style.display = 'block';
+  }
+</script>
+<h6 id="查找最小值-迭代实现">查找最小值, 迭代实现</h6>
+
+<div id="f3298276fbf92945" class="codetab">
+  <div class="codetab__links">
+    
+      <button class="codetab__link" aria-label="Tab link">SearchMin in a Binary Search Tree : Iteration</button>
+    
+  </div>
+  
+  
+<div id="1150bb8245aa34af" class="codetab__content">
+  <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">searchMin</span><span class="p">(</span><span class="nx">root</span> <span class="o">*</span><span class="nx">treeNode</span><span class="p">)</span> <span class="o">*</span><span class="nx">treeNode</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="nx">root</span> <span class="o">==</span> <span class="kc">nil</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="kc">nil</span>
+  <span class="p">}</span>
+  <span class="k">for</span> <span class="nx">root</span><span class="p">.</span><span class="nx">left</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+      <span class="nx">root</span> <span class="p">=</span> <span class="nx">root</span><span class="p">.</span><span class="nx">left</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">root</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+
+</div>
+
+<script>
+  'use strict';
+
+  var containerId = JSON.parse("\"f3298276fbf92945\"");
+  var containerElem = document.getElementById(containerId);
+  var codetabLinks = null;
+  var codetabContents = null;
+  var ids = [];
+
+  if (containerElem) {
+    codetabLinks = containerElem.querySelectorAll('.codetab__link');
+    codetabContents = containerElem.querySelectorAll('.codetab__content');
+  }
+
+  for (var i = 0; i < codetabContents.length; i++) {
+    ids = ids.concat(codetabContents[i].getAttribute('id'));
+    codetabContents[i].style.display = 'none';
+
+    if (0 === parseInt(i, 10) && !codetabContents[i].classList.contains('active')) {
+      codetabContents[i].classList.add('active');
+    }
+  }
+
+  for (var i = 0; i < codetabLinks.length; i++) {
+    codetabLinks[i].setAttribute('id', ids[i]);
+
+    if (0 === parseInt(i, 10) && !codetabLinks[i].classList.contains('active')) {
+      codetabLinks[i].classList.add('active');
+    } else {
+      codetabLinks[i].classList.remove('active');
+    }
+  }
+
+  if (codetabContents.length > 0) {
+    codetabContents[0].style.display = 'block';
+  }
+</script>
+<h6 id="查找最大值-迭代实现">查找最大值, 迭代实现</h6>
+
+<div id="859409a1f2c51947" class="codetab">
+  <div class="codetab__links">
+    
+      <button class="codetab__link" aria-label="Tab link">SearchMax in a Binary Search Tree : Iteration</button>
+    
+  </div>
+  
+  
+<div id="7a38406202fcc8b6" class="codetab__content">
+  <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">searchMax</span><span class="p">(</span><span class="nx">root</span> <span class="o">*</span><span class="nx">treeNode</span><span class="p">)</span> <span class="o">*</span><span class="nx">treeNode</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="nx">root</span> <span class="o">==</span> <span class="kc">nil</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="kc">nil</span>
+  <span class="p">}</span>
+  <span class="k">for</span> <span class="nx">root</span><span class="p">.</span><span class="nx">right</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+      <span class="nx">root</span> <span class="p">=</span> <span class="nx">root</span><span class="p">.</span><span class="nx">right</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">root</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+
+</div>
+
+<script>
+  'use strict';
+
+  var containerId = JSON.parse("\"859409a1f2c51947\"");
   var containerElem = document.getElementById(containerId);
   var codetabLinks = null;
   var codetabContents = null;
