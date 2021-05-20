@@ -21,6 +21,42 @@
 
       
       <item>
+        <title>Xorg -- execute commands automatically at the beginning of the X user session</title>
+        <link>https://dushaoshuai.github.io/posts/gnu_linux/x11/execute_commands_at_the_beginning_of_x/</link>
+        <pubDate>Thu, 20 May 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Thu, 20 May 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/gnu_linux/x11/execute_commands_at_the_beginning_of_x/</guid>
+        <description>使用显示管理器的, 在 ~/.xprofile 和 /etc/xprofile 中添加的命令, 会在窗口管理器启动之前执行 1 2 3 # ~/.xprofile oneko -dog -position +50-50 &amp;amp; oneko -tora -position +60-60 &amp;amp; Ref https://wiki.archlinux.org/title/Xprofile https://wiki.archlinux.org/title/Autostarting https://wiki.archlinux.org/title/Autostarting#On_Xorg_startup https://wiki.archlinux.org/title/Autostarting#On_desktop_environment_startup https://wiki.archlinux.org/title/Autostarting#On_window_manager_startup</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/GNU_Linux.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Bash -- array</title>
         <link>https://dushaoshuai.github.io/posts/gnu_linux/bash/bash_array/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>

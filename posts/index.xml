@@ -21,11 +21,47 @@
 
       
       <item>
+        <title>Xorg -- execute commands automatically at the beginning of the X user session</title>
+        <link>https://dushaoshuai.github.io/posts/gnu_linux/x11/execute_commands_at_the_beginning_of_x/</link>
+        <pubDate>Thu, 20 May 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Thu, 20 May 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/gnu_linux/x11/execute_commands_at_the_beginning_of_x/</guid>
+        <description>使用显示管理器的, 在 ~/.xprofile 和 /etc/xprofile 中添加的命令, 会在窗口管理器启动之前执行 1 2 3 # ~/.xprofile oneko -dog -position +50-50 &amp;amp; oneko -tora -position +60-60 &amp;amp; Ref https://wiki.archlinux.org/title/Xprofile https://wiki.archlinux.org/title/Autostarting https://wiki.archlinux.org/title/Autostarting#On_Xorg_startup https://wiki.archlinux.org/title/Autostarting#On_desktop_environment_startup https://wiki.archlinux.org/title/Autostarting#On_window_manager_startup</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/GNU_Linux.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Data Structures and Algorithm -- N-ary tree traversal</title>
         <link>https://dushaoshuai.github.io/posts/algorithm/n-ary_tree_traversal/</link>
-        <pubDate>Sun, 16 May 2021 12:01:00 +0800</pubDate>
+        <pubDate>Mon, 17 May 2021 09:51:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sun, 16 May 2021 12:01:00 +0800</atom:modified>
+        <atom:modified>Mon, 17 May 2021 09:49:46 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/algorithm/n-ary_tree_traversal/</guid>
         <description>节点定义 Definition for a N-ary Tree Node 1 2 3 4 type node struct { val int children []*node } &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;7b13e2cfc253c1a1\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;); codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;); } for (var i = 0; i 0) { codetabContents[0].style.display = &#39;block&#39;; } Preorder Traversal :</description>
         
@@ -65,7 +101,7 @@
         <link>https://dushaoshuai.github.io/posts/algorithm/splay_tree/</link>
         <pubDate>Sun, 16 May 2021 12:01:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sun, 16 May 2021 11:52:06 +0800</atom:modified>
+        <atom:modified>Mon, 17 May 2021 09:49:46 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/algorithm/splay_tree/</guid>
         <description>性质: 伸展树 (splay tree) 是自平衡的二叉查找树. 访问一个节点 (插入, 查找, 删除) 导致此节点及其附近节点被向上伸展到根处, 再次访问此节点所花费的时间变少</description>
         
