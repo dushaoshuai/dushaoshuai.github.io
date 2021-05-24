@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>sorting algorightm on Hugo Zzo Theme</title>
+    <link>https://dushaoshuai.github.io/series/sorting-algorightm/</link>
+    <description>Recent content in sorting algorightm on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 24 May 2021 13:01:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/series/sorting-algorightm/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Data Structures and Algorithm -- quicksort</title>
+        <link>https://dushaoshuai.github.io/posts/algorithm/sort/quik_sort/</link>
+        <pubDate>Mon, 24 May 2021 13:01:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Mon, 24 May 2021 13:01:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/sort/quik_sort/</guid>
+        <description>intro 平均时间: O(N*logN) 最好时间: O(N*logN) 最坏时间: O(N2) 同归并排序一样, 快速排序也是一种使用分治策略 (divide-and-conquer) 的递归算法. 从数组中选择一个枢纽元 (pivot), 将数组分为小于枢纽元</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/algorithm.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+            
+              <category>sorting algorithm</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+            
+              <category>sorting algorithm</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+            
+              <category>sorting algorightm</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

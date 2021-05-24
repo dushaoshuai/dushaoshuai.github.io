@@ -2,32 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dushaoshuai.github.io/posts/gnu_linux/x11/execute_commands_at_the_beginning_of_x/</loc>
-    <lastmod>2021-05-20T11:21:00+08:00</lastmod>
+    <loc>https://dushaoshuai.github.io/tags/algorithm/</loc>
+    <lastmod>2021-05-24T13:01:00+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/algorithm/</loc>
-    <lastmod>2021-05-17T09:49:46+08:00</lastmod>
+    <lastmod>2021-05-24T13:01:00+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/algorithm/</loc>
-    <lastmod>2021-05-17T09:49:46+08:00</lastmod>
+    <lastmod>2021-05-24T13:01:00+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/</loc>
-    <lastmod>2021-05-17T09:49:46+08:00</lastmod>
+    <lastmod>2021-05-24T13:01:00+08:00</lastmod>
   </url><url>
-    <loc>https://dushaoshuai.github.io/posts/algorithm/n-ary_tree_traversal/</loc>
-    <lastmod>2021-05-17T09:49:46+08:00</lastmod>
-  </url><url>
-    <loc>https://dushaoshuai.github.io/tags/n-ary-tree/</loc>
-    <lastmod>2021-05-17T09:49:46+08:00</lastmod>
+    <loc>https://dushaoshuai.github.io/posts/algorithm/sort/quik_sort/</loc>
+    <lastmod>2021-05-24T13:01:00+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/</loc>
-    <lastmod>2021-05-17T09:49:46+08:00</lastmod>
+    <lastmod>2021-05-24T13:01:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/series/sorting-algorightm/</loc>
+    <lastmod>2021-05-24T13:01:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/tags/sorting-algorithm/</loc>
+    <lastmod>2021-05-24T13:01:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/categories/sorting-algorithm/</loc>
+    <lastmod>2021-05-24T13:01:00+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/</loc>
-    <lastmod>2021-05-17T09:49:46+08:00</lastmod>
+    <lastmod>2021-05-24T13:01:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/posts/gnu_linux/x11/execute_commands_at_the_beginning_of_x/</loc>
+    <lastmod>2021-05-20T16:00:11+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/posts/algorithm/n-ary_tree_traversal/</loc>
+    <lastmod>2021-05-20T16:00:11+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/tags/n-ary-tree/</loc>
+    <lastmod>2021-05-20T16:00:11+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/tree/</loc>
-    <lastmod>2021-05-17T09:49:46+08:00</lastmod>
+    <lastmod>2021-05-20T16:00:11+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/binary-tree/</loc>
     <lastmod>2021-05-17T09:49:46+08:00</lastmod>
@@ -66,19 +81,19 @@
     <lastmod>2021-04-24T15:53:11+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/bash/</loc>
-    <lastmod>2021-04-27T10:47:06+08:00</lastmod>
+    <lastmod>2021-05-20T16:00:11+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/bash/</loc>
-    <lastmod>2021-04-27T10:47:06+08:00</lastmod>
+    <lastmod>2021-05-20T16:00:11+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/bash/</loc>
-    <lastmod>2021-04-27T10:47:06+08:00</lastmod>
+    <lastmod>2021-05-20T16:00:11+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/gnu_linux/bash/bash_array/</loc>
     <lastmod>2021-04-27T10:47:06+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/gnu_linux/bash/bash_builtin_command/bash_builtin_type/</loc>
-    <lastmod>2021-04-27T10:47:06+08:00</lastmod>
+    <lastmod>2021-05-20T16:00:11+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/beego/</loc>
     <lastmod>2021-04-24T23:10:49+08:00</lastmod>

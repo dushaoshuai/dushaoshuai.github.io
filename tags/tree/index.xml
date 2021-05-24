@@ -26,7 +26,7 @@
         <link>https://dushaoshuai.github.io/posts/algorithm/n-ary_tree_traversal/</link>
         <pubDate>Mon, 17 May 2021 09:51:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Mon, 17 May 2021 09:49:46 +0800</atom:modified>
+        <atom:modified>Thu, 20 May 2021 16:00:11 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/algorithm/n-ary_tree_traversal/</guid>
         <description>节点定义 Definition for a N-ary Tree Node 1 2 3 4 type node struct { val int children []*node } &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;7b13e2cfc253c1a1\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;); codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;); } for (var i = 0; i 0) { codetabContents[0].style.display = &#39;block&#39;; } Preorder Traversal :</description>
         
