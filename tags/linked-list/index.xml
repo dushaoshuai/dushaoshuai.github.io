@@ -26,10 +26,10 @@
         <link>https://dushaoshuai.github.io/posts/algorithm/reverse_linked_list/</link>
         <pubDate>Fri, 28 May 2021 19:01:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Fri, 28 May 2021 19:34:02 +0800</atom:modified>
+        <atom:modified>Fri, 28 May 2021 21:11:58 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/algorithm/reverse_linked_list/</guid>
-        <description>ref : https://leetcode.com/problems/reverse-linked-list/
-Definition for singly-linked list  1 2 3 4  type ListNode struct { Val int Next *ListNode }       &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;c43927c951821cac\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;); codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;); } for (var i = 0; i 0) { codetabContents[0].style.display = &#39;block&#39;; }    diagram  1 2 3 4 5 6 7 8 9 10 11  nil ------ 1 -----&amp;gt; 2 -----&amp;gt; 3 -----&amp;gt; nil prev curr curr.</description>
+        <description>ref :
+ https://leetcode.com/problems/reverse-linked-list/ https://leetcode.com/problems/reverse-nodes-in-k-group/  Definition for singly-linked list  1 2 3 4  type ListNode struct { Val int Next *ListNode }       &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;c43927c951821cac\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;); codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;); } for (var i = 0; i 0) { codetabContents[0].</description>
         
         <dc:creator>dushaouai</dc:creator>
         <media:content url="https://dushaoshuai.github.io/images/feature/algorithm.png" medium="image"><media:title type="html">featured image</media:title></media:content>
