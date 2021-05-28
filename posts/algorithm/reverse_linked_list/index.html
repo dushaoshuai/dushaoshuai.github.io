@@ -1746,7 +1746,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;May 28, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">✍️&nbsp;dushaouai</span>
   
@@ -2002,6 +2002,139 @@
   'use strict';
 
   var containerId = JSON.parse("\"8c9aa7327a651f36\"");
+  var containerElem = document.getElementById(containerId);
+  var codetabLinks = null;
+  var codetabContents = null;
+  var ids = [];
+
+  if (containerElem) {
+    codetabLinks = containerElem.querySelectorAll('.codetab__link');
+    codetabContents = containerElem.querySelectorAll('.codetab__content');
+  }
+
+  for (var i = 0; i < codetabContents.length; i++) {
+    ids = ids.concat(codetabContents[i].getAttribute('id'));
+    codetabContents[i].style.display = 'none';
+
+    if (0 === parseInt(i, 10) && !codetabContents[i].classList.contains('active')) {
+      codetabContents[i].classList.add('active');
+    }
+  }
+
+  for (var i = 0; i < codetabLinks.length; i++) {
+    codetabLinks[i].setAttribute('id', ids[i]);
+
+    if (0 === parseInt(i, 10) && !codetabLinks[i].classList.contains('active')) {
+      codetabLinks[i].classList.add('active');
+    } else {
+      codetabLinks[i].classList.remove('active');
+    }
+  }
+
+  if (codetabContents.length > 0) {
+    codetabContents[0].style.display = 'block';
+  }
+</script>
+
+<div id="2c3e185a280885b6" class="codetab">
+  <div class="codetab__links">
+    
+      <button class="codetab__link" aria-label="Tab link">Reverse Nodes In K-Group</button>
+    
+  </div>
+  
+
+  
+<div id="adc9132e9b253126" class="codetab__content">
+  <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">reverseKGroup</span><span class="p">(</span><span class="nx">head</span> <span class="o">*</span><span class="nx">ListNode</span><span class="p">,</span> <span class="nx">k</span> <span class="kt">int</span><span class="p">)</span> <span class="o">*</span><span class="nx">ListNode</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="nx">head</span> <span class="o">==</span> <span class="kc">nil</span> <span class="o">||</span> <span class="nx">head</span><span class="p">.</span><span class="nx">Next</span> <span class="o">==</span> <span class="kc">nil</span> <span class="o">||</span> <span class="nx">k</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">head</span>
+  <span class="p">}</span>
+  <span class="nx">dummyHead</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">ListNode</span><span class="p">{</span><span class="nx">Next</span><span class="p">:</span> <span class="nx">head</span><span class="p">}</span>
+  <span class="k">for</span> <span class="nx">prevGroup</span> <span class="o">:=</span> <span class="nx">dummyHead</span><span class="p">;</span> <span class="p">;</span> <span class="p">{</span> <span class="c1">// prevGroup points to the node before k-group
+</span><span class="c1"></span>      <span class="nx">start</span> <span class="o">:=</span> <span class="nx">prevGroup</span><span class="p">.</span><span class="nx">Next</span>     <span class="c1">// start and end point to the start and end of a k-group, repectively
+</span><span class="c1"></span>      <span class="nx">end</span>  <span class="o">:=</span> <span class="nx">prevGroup</span> 
+      <span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="nx">k</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+          <span class="nx">end</span> <span class="p">=</span> <span class="nx">end</span><span class="p">.</span><span class="nx">Next</span>
+          <span class="k">if</span> <span class="nx">end</span> <span class="o">==</span> <span class="kc">nil</span> <span class="p">{</span>
+              <span class="k">goto</span> <span class="nx">termination</span>
+          <span class="p">}</span>
+      <span class="p">}</span>
+      <span class="nf">reverse</span><span class="p">(</span><span class="nx">start</span><span class="p">,</span> <span class="nx">end</span><span class="p">)</span>
+      <span class="nx">prevGroup</span><span class="p">.</span><span class="nx">Next</span> <span class="p">=</span> <span class="nx">end</span>
+      <span class="nx">prevGroup</span> <span class="p">=</span> <span class="nx">start</span>
+  <span class="p">}</span>
+  <span class="nx">termination</span><span class="p">:</span>
+  <span class="k">return</span> <span class="nx">dummyHead</span><span class="p">.</span><span class="nx">Next</span>
+<span class="p">}</span>
+
+<span class="c1">// reverse reverses the list from start to end, inclusive.
+</span><span class="c1">// start and end should be the start and end of a k-group, repectively.
+</span><span class="c1">// Ultimately, start.Next points to the start of next k-group.
+</span><span class="c1"></span><span class="kd">func</span> <span class="nf">reverse</span><span class="p">(</span><span class="nx">start</span><span class="p">,</span> <span class="nx">end</span> <span class="o">*</span><span class="nx">ListNode</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">nextGroup</span> <span class="o">:=</span> <span class="nx">end</span><span class="p">.</span><span class="nx">Next</span>
+  <span class="kd">var</span> <span class="nx">prev</span> <span class="o">*</span><span class="nx">ListNode</span>
+  <span class="kd">var</span> <span class="nx">curr</span> <span class="o">*</span><span class="nx">ListNode</span> <span class="p">=</span> <span class="nx">start</span>
+  <span class="k">for</span> <span class="nx">curr</span> <span class="o">!=</span> <span class="nx">nextGroup</span> <span class="p">{</span>
+      <span class="nx">nextTemp</span> <span class="o">:=</span> <span class="nx">curr</span><span class="p">.</span><span class="nx">Next</span>
+      <span class="nx">curr</span><span class="p">.</span><span class="nx">Next</span> <span class="p">=</span> <span class="nx">prev</span>
+      <span class="nx">prev</span> <span class="p">=</span> <span class="nx">curr</span>
+      <span class="nx">curr</span> <span class="p">=</span> <span class="nx">nextTemp</span>
+  <span class="p">}</span>
+  <span class="nx">start</span><span class="p">.</span><span class="nx">Next</span> <span class="p">=</span> <span class="nx">nextGroup</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+
+</div>
+
+<script>
+  'use strict';
+
+  var containerId = JSON.parse("\"2c3e185a280885b6\"");
   var containerElem = document.getElementById(containerId);
   var codetabLinks = null;
   var codetabContents = null;
