@@ -14,7 +14,7 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 24 May 2021 13:01:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 May 2021 19:01:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/categories/sorting-algorithm/index.xml" rel="self" type="application/rss+xml" />
@@ -22,11 +22,60 @@
 
       
       <item>
+        <title>Data Structures and Algorithm -- reverse linked list</title>
+        <link>https://dushaoshuai.github.io/posts/algorithm/reverse_linked_list/</link>
+        <pubDate>Fri, 28 May 2021 19:01:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 28 May 2021 19:01:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/reverse_linked_list/</guid>
+        <description>ref : https://leetcode.com/problems/reverse-linked-list/
+Definition for singly-linked list  1 2 3 4  type ListNode struct { Val int Next *ListNode }       &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;c43927c951821cac\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;); codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;); } for (var i = 0; i 0) { codetabContents[0].style.display = &#39;block&#39;; }    diagram  1 2 3 4 5 6 7 8 9 10 11  nil ------ 1 -----&amp;gt; 2 -----&amp;gt; 3 -----&amp;gt; nil prev curr curr.</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/algorithm.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+            
+              <category>sorting algorithm</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+            
+              <category>sorting algorithm</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+            
+              <category>sorting algorightm</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Data Structures and Algorithm -- quicksort</title>
         <link>https://dushaoshuai.github.io/posts/algorithm/sort/quik_sort/</link>
         <pubDate>Mon, 24 May 2021 13:01:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Mon, 24 May 2021 13:01:00 +0800</atom:modified>
+        <atom:modified>Mon, 24 May 2021 20:59:45 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/algorithm/sort/quik_sort/</guid>
         <description>intro 平均时间: O(N*logN) 最好时间: O(N*logN) 最坏时间: O(N2) 同归并排序一样, 快速排序也是一种使用分治策略 (divide-and-conquer) 的递归算法. 从数组中选择一个枢纽元 (pivot), 将数组分为小于枢纽元</description>
         

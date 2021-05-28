@@ -23,11 +23,11 @@
       
       <item>
         <title>Data Structures and Algorithm -- BST</title>
-        <link>https://dushaoshuai.github.io/posts/algorithm/bst/</link>
+        <link>https://dushaoshuai.github.io/posts/algorithm/tree/bst/</link>
         <pubDate>Sun, 09 May 2021 09:01:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sun, 16 May 2021 12:00:53 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/algorithm/bst/</guid>
+        <atom:modified>Sun, 09 May 2021 09:01:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/tree/bst/</guid>
         <description>性质: 二叉查找树 (BST) 是一棵二叉树, 对于树中每个节点, 其关键字值大于其左子树中所有关键字值, 小于其右子树中所有关键字值. https://en.wikipedia.org/wiki/Binary_search_tree https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/ 节点定义 Definition for a Binary Search Tree</description>
         
         <dc:creator>dushaouai</dc:creator>

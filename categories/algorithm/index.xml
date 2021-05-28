@@ -14,7 +14,7 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 24 May 2021 13:01:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 May 2021 19:01:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
@@ -22,11 +22,60 @@
 
       
       <item>
+        <title>Data Structures and Algorithm -- reverse linked list</title>
+        <link>https://dushaoshuai.github.io/posts/algorithm/reverse_linked_list/</link>
+        <pubDate>Fri, 28 May 2021 19:01:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 28 May 2021 19:01:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/reverse_linked_list/</guid>
+        <description>ref : https://leetcode.com/problems/reverse-linked-list/
+Definition for singly-linked list  1 2 3 4  type ListNode struct { Val int Next *ListNode }       &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;c43927c951821cac\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;); codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;); } for (var i = 0; i 0) { codetabContents[0].style.display = &#39;block&#39;; }    diagram  1 2 3 4 5 6 7 8 9 10 11  nil ------ 1 -----&amp;gt; 2 -----&amp;gt; 3 -----&amp;gt; nil prev curr curr.</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/algorithm.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+            
+              <category>sorting algorithm</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+            
+              <category>sorting algorithm</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+            
+              <category>sorting algorightm</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Data Structures and Algorithm -- quicksort</title>
         <link>https://dushaoshuai.github.io/posts/algorithm/sort/quik_sort/</link>
         <pubDate>Mon, 24 May 2021 13:01:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Mon, 24 May 2021 13:01:00 +0800</atom:modified>
+        <atom:modified>Mon, 24 May 2021 20:59:45 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/algorithm/sort/quik_sort/</guid>
         <description>intro 平均时间: O(N*logN) 最好时间: O(N*logN) 最坏时间: O(N2) 同归并排序一样, 快速排序也是一种使用分治策略 (divide-and-conquer) 的递归算法. 从数组中选择一个枢纽元 (pivot), 将数组分为小于枢纽元</description>
         
@@ -71,11 +120,11 @@
       
       <item>
         <title>Data Structures and Algorithm -- N-ary tree traversal</title>
-        <link>https://dushaoshuai.github.io/posts/algorithm/n-ary_tree_traversal/</link>
+        <link>https://dushaoshuai.github.io/posts/algorithm/tree/n-ary_tree_traversal/</link>
         <pubDate>Mon, 17 May 2021 09:51:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 20 May 2021 16:00:11 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/algorithm/n-ary_tree_traversal/</guid>
+        <atom:modified>Mon, 17 May 2021 09:51:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/tree/n-ary_tree_traversal/</guid>
         <description>节点定义 Definition for a N-ary Tree Node 1 2 3 4 type node struct { val int children []*node } &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;7b13e2cfc253c1a1\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;); codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;); } for (var i = 0; i 0) { codetabContents[0].style.display = &#39;block&#39;; } Preorder Traversal :</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -111,11 +160,11 @@
       
       <item>
         <title>Data Structures and Algorithm -- splay tree</title>
-        <link>https://dushaoshuai.github.io/posts/algorithm/splay_tree/</link>
+        <link>https://dushaoshuai.github.io/posts/algorithm/tree/splay_tree/</link>
         <pubDate>Sun, 16 May 2021 12:01:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Mon, 17 May 2021 09:49:46 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/algorithm/splay_tree/</guid>
+        <atom:modified>Sun, 16 May 2021 12:01:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/tree/splay_tree/</guid>
         <description>性质: 伸展树 (splay tree) 是自平衡的二叉查找树. 访问一个节点 (插入, 查找, 删除) 导致此节点及其附近节点被向上伸展到根处, 再次访问此节点所花费的时间变少</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -155,11 +204,11 @@
       
       <item>
         <title>Data Structures and Algorithm -- BST</title>
-        <link>https://dushaoshuai.github.io/posts/algorithm/bst/</link>
+        <link>https://dushaoshuai.github.io/posts/algorithm/tree/bst/</link>
         <pubDate>Sun, 09 May 2021 09:01:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sun, 16 May 2021 12:00:53 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/algorithm/bst/</guid>
+        <atom:modified>Sun, 09 May 2021 09:01:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/tree/bst/</guid>
         <description>性质: 二叉查找树 (BST) 是一棵二叉树, 对于树中每个节点, 其关键字值大于其左子树中所有关键字值, 小于其右子树中所有关键字值. https://en.wikipedia.org/wiki/Binary_search_tree https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/ 节点定义 Definition for a Binary Search Tree</description>
         
         <dc:creator>dushaouai</dc:creator>
