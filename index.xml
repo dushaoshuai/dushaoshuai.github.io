@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Hugo Zzo Theme</title>
+    <title>DSS Blog</title>
     <link>https://dushaoshuai.github.io/</link>
-    <description>Recent content on Hugo Zzo Theme</description>
+    <description>Recent content on DSS Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
@@ -40,6 +40,106 @@
         
       
 
+      
+      <item>
+        <title>Go and SQL</title>
+        <link>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</link>
+        <pubDate>Thu, 10 Jun 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Thu, 10 Jun 2021 16:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</guid>
+        <description>参考 https://golang.org/pkg/database/sql/ Go database/sql tutorial https://github.com/golang/go/wiki/SQLInterface https://github.com/go-sql-driver/mysql/wiki/Examples https://golang.org/doc/go1.8#database_sql https://golang.org/pkg/context/ database driver database/sql 是 gopher 操作 SQL-like 数据库的工具, 支持 context . database/sql 必须与driver 联合使用. https://golang.org/s/sqldrivers 提供了针对不同类型数据库的 driver , 本篇总结使用 github.com/go-sql-driver/mysql 和 database/sql 操</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/sql.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>Golang</category>
+            
+          
+            
+              <category>SQL</category>
+            
+          
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>Golang</category>
+            
+          
+            
+              <category>SQL</category>
+            
+          
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>Golang</category>
+            
+          
+            
+              <category>SQL</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Data Structures and Algorithm -- Trie</title>
+        <link>https://dushaoshuai.github.io/posts/algorithm/tree/trie/</link>
+        <pubDate>Mon, 07 Jun 2021 09:51:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Mon, 07 Jun 2021 09:51:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/algorithm/tree/trie/</guid>
+        <description>https://zh.wikipedia.org/zh-cn/Trie trie, 又称前缀树或字典树, 是一种有序树, 用于保存关联数组, 键通常是字符串. 与二叉查找树不同, 键不是直接保存在节点中, 而是由节点在树中的位置决定</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/algorithm.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>tree</category>
+            
+          
+            
+              <category>Trie</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+        
+        
+          
+            
+              <category>algorithm</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Data Structures and Algorithm -- reverse linked list</title>
@@ -649,11 +749,11 @@ Three ways to find the values of $GOOS and $GOARCH :  official documentation /us
       
       <item>
         <title>GitHub REST API</title>
-        <link>https://dushaoshuai.github.io/posts/http/github_rest_api/</link>
+        <link>https://dushaoshuai.github.io/posts/computer_network/http/github_rest_api/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sun, 09 May 2021 08:49:53 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/http/github_rest_api/</guid>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/computer_network/http/github_rest_api/</guid>
         <description>注意 &amp;amp; 是 Bash 的元字符, 如果 URL 中有 &amp;amp; 的话, 需要将其转义: \&amp;amp;sort=comment 或者 &amp;quot;&amp;amp;sort=comment&amp;quot; Creating a personal access token 官方文档链接 Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password for Git over HTTPS, or can be used to authenticate to the</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -902,11 +1002,11 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
       
       <item>
         <title>HTTP message</title>
-        <link>https://dushaoshuai.github.io/posts/http/http_message/</link>
+        <link>https://dushaoshuai.github.io/posts/computer_network/http/http_message/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/http/http_message/</guid>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/computer_network/http/http_message/</guid>
         <description>RFC 1945 RFC 2616 RFC 7540 HTTP 报文(message) 分为 请求报文(request message) 和 响应报文(response message) . 以 telnet 为例: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -946,11 +1046,11 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
       
       <item>
         <title>HTTP status code</title>
-        <link>https://dushaoshuai.github.io/posts/http/http_status_code/</link>
+        <link>https://dushaoshuai.github.io/posts/computer_network/http/http_status_code/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/http/http_status_code/</guid>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/computer_network/http/http_status_code/</guid>
         <description>总览 1xx : Informational - 收到请求, 继续处理 2xx : Success - 操作被成功地接收、理解和接受 3xx : Redirection - 为了完成请求，必须采取进一步的措施 4xx : Client Error - 请求包含错误的语法, 或</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -1181,8 +1281,8 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <guid>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</guid>
         <description>DBMS(database management system) : 维护数据库的软件系统. RDBMS(relational database management system) : 维护关系型数据库的软件系统. 每张 table 由许多 row 和 column 组成. row &amp;ndash; entity &amp;ndash; record &amp;ndash; tuple column &amp;ndash; attribute &amp;ndash; field Hierarchical Database Model(分层数据</description>
         
-        <dc:creator>shaouai</dc:creator>
-        <media:content url="https://dushaoshuai.github.io/images/feature/MariaDB.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/sql.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

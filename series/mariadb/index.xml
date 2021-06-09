@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>MariaDB on Hugo Zzo Theme</title>
+    <title>MariaDB on DSS Blog</title>
     <link>https://dushaoshuai.github.io/series/mariadb/</link>
-    <description>Recent content in MariaDB on Hugo Zzo Theme</description>
+    <description>Recent content in MariaDB on DSS Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
@@ -110,8 +110,8 @@
         <guid>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</guid>
         <description>DBMS(database management system) : 维护数据库的软件系统. RDBMS(relational database management system) : 维护关系型数据库的软件系统. 每张 table 由许多 row 和 column 组成. row &amp;ndash; entity &amp;ndash; record &amp;ndash; tuple column &amp;ndash; attribute &amp;ndash; field Hierarchical Database Model(分层数据</description>
         
-        <dc:creator>shaouai</dc:creator>
-        <media:content url="https://dushaoshuai.github.io/images/feature/MariaDB.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/sql.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

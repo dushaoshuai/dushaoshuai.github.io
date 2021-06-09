@@ -6,15 +6,15 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Categories on Hugo Zzo Theme</title>
+    <title>Categories on DSS Blog</title>
     <link>https://dushaoshuai.github.io/categories/</link>
-    <description>Recent content in Categories on Hugo Zzo Theme</description>
+    <description>Recent content in Categories on DSS Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 28 May 2021 19:01:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jun 2021 16:21:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -22,9 +22,63 @@
 
       
       <item>
+        <title>DBMS</title>
+        <link>https://dushaoshuai.github.io/categories/dbms/</link>
+        <pubDate>Thu, 10 Jun 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/categories/dbms/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Golang</title>
+        <link>https://dushaoshuai.github.io/categories/golang/</link>
+        <pubDate>Thu, 10 Jun 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/categories/golang/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>SQL</title>
+        <link>https://dushaoshuai.github.io/categories/sql/</link>
+        <pubDate>Thu, 10 Jun 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/categories/sql/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>algorithm</title>
         <link>https://dushaoshuai.github.io/categories/algorithm/</link>
-        <pubDate>Fri, 28 May 2021 19:01:00 +0800</pubDate>
+        <pubDate>Mon, 07 Jun 2021 09:51:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
         
         <guid>https://dushaoshuai.github.io/categories/algorithm/</guid>
@@ -64,24 +118,6 @@
         <author>aouaidug@gmail.com (shaouai)</author>
         
         <guid>https://dushaoshuai.github.io/categories/sorting-algorithm/</guid>
-        <description></description>
-        
-        <dc:creator>shaouai</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Golang</title>
-        <link>https://dushaoshuai.github.io/categories/golang/</link>
-        <pubDate>Tue, 27 Apr 2021 11:21:00 +0800</pubDate>
-        <author>aouaidug@gmail.com (shaouai)</author>
-        
-        <guid>https://dushaoshuai.github.io/categories/golang/</guid>
         <description></description>
         
         <dc:creator>shaouai</dc:creator>
@@ -154,24 +190,6 @@
         <author>aouaidug@gmail.com (shaouai)</author>
         
         <guid>https://dushaoshuai.github.io/categories/computer-network/</guid>
-        <description></description>
-        
-        <dc:creator>shaouai</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>DBMS</title>
-        <link>https://dushaoshuai.github.io/categories/dbms/</link>
-        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
-        <author>aouaidug@gmail.com (shaouai)</author>
-        
-        <guid>https://dushaoshuai.github.io/categories/dbms/</guid>
         <description></description>
         
         <dc:creator>shaouai</dc:creator>

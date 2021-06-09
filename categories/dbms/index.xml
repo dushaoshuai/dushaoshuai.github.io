@@ -6,20 +6,80 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>DBMS on Hugo Zzo Theme</title>
+    <title>DBMS on DSS Blog</title>
     <link>https://dushaoshuai.github.io/categories/dbms/</link>
-    <description>Recent content in DBMS on Hugo Zzo Theme</description>
+    <description>Recent content in DBMS on DSS Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jun 2021 16:21:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/categories/dbms/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Go and SQL</title>
+        <link>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</link>
+        <pubDate>Thu, 10 Jun 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Thu, 10 Jun 2021 16:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</guid>
+        <description>参考 https://golang.org/pkg/database/sql/ Go database/sql tutorial https://github.com/golang/go/wiki/SQLInterface https://github.com/go-sql-driver/mysql/wiki/Examples https://golang.org/doc/go1.8#database_sql https://golang.org/pkg/context/ database driver database/sql 是 gopher 操作 SQL-like 数据库的工具, 支持 context . database/sql 必须与driver 联合使用. https://golang.org/s/sqldrivers 提供了针对不同类型数据库的 driver , 本篇总结使用 github.com/go-sql-driver/mysql 和 database/sql 操</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/sql.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>Golang</category>
+            
+          
+            
+              <category>SQL</category>
+            
+          
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>Golang</category>
+            
+          
+            
+              <category>SQL</category>
+            
+          
+        
+        
+          
+            
+              <category>DBMS</category>
+            
+          
+            
+              <category>Golang</category>
+            
+          
+            
+              <category>SQL</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>RDBMS Terminology</title>
@@ -30,8 +90,8 @@
         <guid>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</guid>
         <description>DBMS(database management system) : 维护数据库的软件系统. RDBMS(relational database management system) : 维护关系型数据库的软件系统. 每张 table 由许多 row 和 column 组成. row &amp;ndash; entity &amp;ndash; record &amp;ndash; tuple column &amp;ndash; attribute &amp;ndash; field Hierarchical Database Model(分层数据</description>
         
-        <dc:creator>shaouai</dc:creator>
-        <media:content url="https://dushaoshuai.github.io/images/feature/MariaDB.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/sql.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

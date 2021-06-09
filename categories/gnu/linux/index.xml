@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>GNU/Linux on Hugo Zzo Theme</title>
+    <title>GNU/Linux on DSS Blog</title>
     <link>https://dushaoshuai.github.io/categories/gnu/linux/</link>
-    <description>Recent content in GNU/Linux on Hugo Zzo Theme</description>
+    <description>Recent content in GNU/Linux on DSS Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
