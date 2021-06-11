@@ -26,7 +26,7 @@
         <link>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</link>
         <pubDate>Thu, 10 Jun 2021 16:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 10 Jun 2021 16:21:00 +0800</atom:modified>
+        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</guid>
         <description>参考 https://golang.org/pkg/database/sql/ Go database/sql tutorial https://github.com/golang/go/wiki/SQLInterface https://github.com/go-sql-driver/mysql/wiki/Examples https://golang.org/doc/go1.8#database_sql https://golang.org/pkg/context/ database driver database/sql 是 gopher 操作 SQL-like 数据库的工具, 支持 context . database/sql 必须与driver 联合使用. https://golang.org/s/sqldrivers 提供了针对不同类型数据库的 driver , 本篇总结使用 github.com/go-sql-driver/mysql 和 database/sql 操</description>
         
@@ -86,7 +86,7 @@
         <link>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sun, 09 May 2021 08:49:53 +0800</atom:modified>
+        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</guid>
         <description>DBMS(database management system) : 维护数据库的软件系统. RDBMS(relational database management system) : 维护关系型数据库的软件系统. 每张 table 由许多 row 和 column 组成. row &amp;ndash; entity &amp;ndash; record &amp;ndash; tuple column &amp;ndash; attribute &amp;ndash; field Hierarchical Database Model(分层数据</description>
         

@@ -106,7 +106,7 @@
         <link>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sun, 09 May 2021 08:49:53 +0800</atom:modified>
+        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</guid>
         <description>DBMS(database management system) : 维护数据库的软件系统. RDBMS(relational database management system) : 维护关系型数据库的软件系统. 每张 table 由许多 row 和 column 组成. row &amp;ndash; entity &amp;ndash; record &amp;ndash; tuple column &amp;ndash; attribute &amp;ndash; field Hierarchical Database Model(分层数据</description>
         

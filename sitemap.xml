@@ -2,59 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dushaoshuai.github.io/posts/gnu_linux/desktop_entry_aslo_application_menu/</loc>
+    <lastmod>2021-06-11T11:21:00+08:00</lastmod>
+  </url><url>
     <loc>https://dushaoshuai.github.io/categories/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/dbms/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/dbms/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/dbms/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/golang/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/golang/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/golang/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/sql/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/sql/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/sql/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/</loc>
-    <lastmod>2021-06-10T16:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/posts/golang/golang_slice/</loc>
+    <lastmod>2021-04-24T23:10:49+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/algorithm/</loc>
-    <lastmod>2021-06-07T09:51:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/algorithm/</loc>
-    <lastmod>2021-06-07T09:51:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/algorithm/tree/trie/</loc>
-    <lastmod>2021-06-07T09:51:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/tree/</loc>
-    <lastmod>2021-06-07T09:51:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/trie/</loc>
-    <lastmod>2021-06-07T09:51:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/algorithm/</loc>
     <lastmod>2021-05-28T21:18:34+08:00</lastmod>
@@ -159,10 +165,10 @@
     <lastmod>2021-04-27T10:47:06+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/computer-network/</loc>
-    <lastmod>2021-04-24T11:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/computer-network/</loc>
-    <lastmod>2021-04-24T11:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/docker/</loc>
     <lastmod>2021-04-24T23:10:49+08:00</lastmod>
@@ -192,7 +198,7 @@
     <lastmod>2021-04-27T10:47:06+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/computer_network/http/github_rest_api/</loc>
-    <lastmod>2021-04-24T11:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/miscellaneous/gnome_shell_super_key_does_not_work/</loc>
     <lastmod>2021-04-27T10:47:06+08:00</lastmod>
@@ -213,19 +219,19 @@
     <lastmod>2021-04-24T23:10:49+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/http/</loc>
-    <lastmod>2021-04-24T11:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/http/</loc>
-    <lastmod>2021-04-24T11:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/http/</loc>
-    <lastmod>2021-04-24T23:10:49+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/computer_network/http/http_message/</loc>
-    <lastmod>2021-04-24T11:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/computer_network/http/http_status_code/</loc>
-    <lastmod>2021-04-24T11:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/gnu_linux/decompress/</loc>
     <lastmod>2021-04-27T10:47:06+08:00</lastmod>
@@ -237,13 +243,13 @@
     <lastmod>2021-04-27T10:47:06+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/mariadb/</loc>
-    <lastmod>2021-05-09T08:49:53+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/mariadb/</loc>
-    <lastmod>2021-05-09T08:49:53+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/mariadb/</loc>
-    <lastmod>2021-05-09T08:49:53+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/dbms/mariadb/install_and_init_mariadb/</loc>
     <lastmod>2021-04-24T23:10:49+08:00</lastmod>
@@ -252,22 +258,22 @@
     <lastmod>2021-04-27T10:47:06+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/rdbms/</loc>
-    <lastmod>2021-05-09T08:49:53+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/rdbms/</loc>
-    <lastmod>2021-05-09T08:49:53+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/categories/rdbms/</loc>
-    <lastmod>2021-05-09T08:49:53+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</loc>
-    <lastmod>2021-05-09T08:49:53+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/rest-api/</loc>
-    <lastmod>2021-04-24T11:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/rest-api/</loc>
-    <lastmod>2021-04-24T11:21:00+08:00</lastmod>
+    <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/posts/miscellaneous/adb_touch_events/</loc>
     <lastmod>2021-04-27T10:47:06+08:00</lastmod>

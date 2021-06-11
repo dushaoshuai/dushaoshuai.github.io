@@ -21,6 +21,42 @@
 
       
       <item>
+        <title>Linux -- 管理应用菜单</title>
+        <link>https://dushaoshuai.github.io/posts/gnu_linux/desktop_entry_aslo_application_menu/</link>
+        <pubDate>Fri, 11 Jun 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 11 Jun 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/gnu_linux/desktop_entry_aslo_application_menu/</guid>
+        <description>今天安装了一个第 3 方软件, 使用后感觉不顺手, 就删掉了. 我说 &amp;ldquo;删掉&amp;rdquo; 而不是 &amp;ldquo;卸载&amp;rdquo; 是因为这个软</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/GNU_Linux.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Xorg -- execute commands automatically at the beginning of the X user session</title>
         <link>https://dushaoshuai.github.io/posts/gnu_linux/x11/execute_commands_at_the_beginning_of_x/</link>
         <pubDate>Thu, 20 May 2021 11:21:00 +0800</pubDate>

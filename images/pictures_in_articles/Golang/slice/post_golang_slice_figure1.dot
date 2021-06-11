@@ -1,0 +1,26 @@
+digraph G {
+	graph [label="Figure 1. Two overlapping slices of an array."]
+    	node [shape=record, nodesep=0.02];
+	
+	// my name
+	by_DSS [shape=underline, label="by DSS"];
+
+	c [color=white, label="c := a[1:]"]
+	a [color=white, label="a := [...]int\{0,1,2,3,4,5,6\}"];
+	b [color=white label="b := a[:3]"];
+    	array [label="<f0> 0 | <f1> 1 | <f2> 2 | <f3> 3 | <f4> 4 | <f5> 5 | <f6> 6"];
+	slice1 [label="<f0> ⊙ | <f1> len: 3 | <f2> cap: 7"];
+	slice2 [label="<f0> ⊙ | <f1> len: 6 | <f2> cap: 6"]
+
+	{rank=same; c; slice2}
+	{rank=same; a; array}
+	{rank=same; b; slice1}
+
+	
+	slice2:f0 -> array:f1 [weight=8];
+	slice2:f0 -> array:f6 [style=dotted, arrowtail=none, dir=back, label=6];
+	slice2:f0 -> array:f6 [style=dotted, arrowtail=none, dir=back, label=6];
+	array:f0 -> slice1:f0 [weight=8, dir=back];
+	slice1:f0 -> array:f2 [style=dotted, arrowtail=none, dir=back, label=3];
+	slice1:f0 -> array:f6 [style=dotted, arrowtail=none, dir=back, label=7];
+}

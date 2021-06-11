@@ -26,7 +26,7 @@
         <link>https://dushaoshuai.github.io/posts/algorithm/tree/trie/</link>
         <pubDate>Mon, 07 Jun 2021 09:51:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Mon, 07 Jun 2021 09:51:00 +0800</atom:modified>
+        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/algorithm/tree/trie/</guid>
         <description>https://zh.wikipedia.org/zh-cn/Trie trie, 又称前缀树或字典树, 是一种有序树, 用于保存关联数组, 键通常是字符串. 与二叉查找树不同, 键不是直接保存在节点中, 而是由节点在树中的位置决定</description>
         

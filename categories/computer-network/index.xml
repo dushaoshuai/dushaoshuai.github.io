@@ -26,7 +26,7 @@
         <link>https://dushaoshuai.github.io/posts/computer_network/http/http_message/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/computer_network/http/http_message/</guid>
         <description>RFC 1945 RFC 2616 RFC 7540 HTTP 报文(message) 分为 请求报文(request message) 和 响应报文(response message) . 以 telnet 为例: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16</description>
         
@@ -70,7 +70,7 @@
         <link>https://dushaoshuai.github.io/posts/computer_network/http/http_status_code/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/computer_network/http/http_status_code/</guid>
         <description>总览 1xx : Informational - 收到请求, 继续处理 2xx : Success - 操作被成功地接收、理解和接受 3xx : Redirection - 为了完成请求，必须采取进一步的措施 4xx : Client Error - 请求包含错误的语法, 或</description>
         
