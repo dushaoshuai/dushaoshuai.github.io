@@ -1336,7 +1336,7 @@
 <meta name="keywords" content="Golang">
 
 <meta name="created" content="2021-06-10T14:21:00&#43;0800">
-<meta name="modified" content="2021-04-24T23:10:49&#43;0800">
+<meta name="modified" content="2021-06-11T23:51:30&#43;0800">
 <meta property="article:published_time" content="2021-06-10T14:21:00&#43;0800">
 
 <meta name="author" content="dushaouai">
@@ -1395,7 +1395,7 @@
     "@type": "WebPage",
     "headline": "Golang -- Slice",
     "datePublished": "2021-06-10T14:21:00+08:00",
-    "dateModified": "2021-04-24T23:10:49+08:00",
+    "dateModified": "2021-06-11T23:51:30+08:00",
     "url" : "https://dushaoshuai.github.io/posts/golang/golang_slice/",
     "description": "Golang -- Slice",
     "keywords": ["Golang"],
@@ -1746,7 +1746,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Jun 10, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <time class="single__info" title="Modified At"> 📝&nbsp;Apr 24, 2021 </time>
+  &nbsp;&middot;&nbsp; <time class="single__info" title="Modified At"> 📝&nbsp;Jun 11, 2021 </time>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;5&nbsp;min read </span>
   
@@ -1787,7 +1787,8 @@
 </span><span class="c1"></span><span class="nx">_</span> <span class="p">=</span> <span class="nx">a</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>                <span class="c1">// panic: runtime error: index out of range [2] with length 2
 </span></code></pre></td></tr></table>
 </div>
-</div><p>第 5 行 <code>panic</code> , 第 2 行竟然没有 <code>panic</code> ❓ 复习了一下切片, 把之前没写完的总结写完了, 如下:</p>
+</div><p>第 5 行 <code>panic</code> , 第 2 行竟然没有 <code>panic</code> ❓ 其实第 2 行完整写法是 <code>b := a[2:2]</code> , 第 3 行完整写法是 <code>_ := a[3:2]</code> , 2 == 2 而 3 &gt; 2.</p>
+<p>复习了一下切片, 把之前没写完的总结写完了.</p>
 <h2 id="slice-简介">slice 简介</h2>
 <p>我们知道, 数组是固定长度的, 固定长度意味着不灵活, 因此一般都用切片.</p>
 <p>切片是一个引用数据类型, 每个切片都和一个数组相关联 ( 除非 切片 == nil ), 使切片 &ldquo;引用/指向&rdquo; 数组的不同区间可以改变切片的长度. 在下文的描述中, <code>切片</code> 指切片本身这个变量, <code>切片的元素</code> 指切片引用的数据.</p>

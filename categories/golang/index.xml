@@ -86,7 +86,7 @@
         <link>https://dushaoshuai.github.io/posts/golang/golang_slice/</link>
         <pubDate>Thu, 10 Jun 2021 14:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
+        <atom:modified>Fri, 11 Jun 2021 23:51:30 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/golang/golang_slice/</guid>
         <description>今天发现一个很有意思的现象: 1 2 3 4 5 a := []int{1,2} b := a[2:] // OK _ := a[3:] // panic: runtime error: slice bounds out of range [3:2] fmt.Println(b, len(b)) // [], 0 _ = a[2] // panic: runtime error: index out of range [2] with length 2 第 5 行 panic , 第 2 行竟然</description>
         
