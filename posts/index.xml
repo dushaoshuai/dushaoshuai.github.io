@@ -21,6 +21,42 @@
 
       
       <item>
+        <title>Golang -- package net</title>
+        <link>https://dushaoshuai.github.io/posts/golang/golang_net_package/</link>
+        <pubDate>Mon, 14 Jun 2021 17:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Mon, 14 Jun 2021 17:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/golang/golang_net_package/</guid>
+        <description>需要补充内容 net 包为 TCP/IP , UDP , 域名解析 , Unix 域套接字 等 网络 I/O 提供了便利的接口. net 包提供大量的函数和接口, 但大多数程序只会用到较少的部分. net 包的工作</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Linux -- 管理应用菜单</title>
         <link>https://dushaoshuai.github.io/posts/gnu_linux/desktop_entry_aslo_application_menu/</link>
         <pubDate>Fri, 11 Jun 2021 11:21:00 +0800</pubDate>
@@ -121,7 +157,7 @@
         <link>https://dushaoshuai.github.io/posts/golang/golang_slice/</link>
         <pubDate>Thu, 10 Jun 2021 14:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Fri, 11 Jun 2021 23:51:30 +0800</atom:modified>
+        <atom:modified>Sat, 12 Jun 2021 07:16:08 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/golang/golang_slice/</guid>
         <description>今天发现一个很有意思的现象: 1 2 3 4 5 a := []int{1,2} b := a[2:] // OK _ := a[3:] // panic: runtime error: slice bounds out of range [3:2] fmt.Println(b, len(b)) // [], 0 _ = a[2] // panic: runtime error: index out of range [2] with length 2 第 5 行 panic , 第 2 行竟然</description>
         

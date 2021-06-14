@@ -1,0 +1,38 @@
+digraph G {
+	graph [label="Figure 1. Net package.", concentrate=true];
+	node [shape=box];
+
+	"net.Listen()" -> "net.Listener";
+	"net.Listener" [fillcolor=lightblue, style=filled];
+
+	"net.Listener" -> "net.Listener.Addr()";
+	"net.Listener" -> "net.Listener.Close()";
+	"net.Listener" -> "net.Listener.Accept()" [weight=8];
+
+	"net.Listener.Accept()" -> "net.Conn":n;
+	"net.Listener.Addr()" -> "net.Addr";
+
+	"net.Conn" [fillcolor=lightblue, style=filled];
+	"net.Conn" -> "net.Conn.LocalAddr()":n;
+	"net.Conn" -> "net.Conn.RemoteAddr()":n;
+	"net.Conn" -> "net.Conn.Read()":n;
+	"net.Conn" -> "net.Conn.Write()":n;
+	"net.Conn" -> "net.Conn.Close()":n;
+	"net.Conn" -> "net.Conn.SetDeadline()":n;
+	"net.Conn" -> "net.Conn.SetReadDeadline()":n;
+	"net.Conn" -> "net.Conn.SetWriteDeadline()":n;
+
+	"net.Conn.LocalAddr()" -> "net.Addr";
+	"net.Conn.RemoteAddr()" -> "net.Addr";
+
+
+	"net.Dial()" -> "net.Conn" [weight=8];
+	"net.DialTimeOut()" -> "net.Conn";
+	"net.FileConn()" -> "net.Conn";
+
+	"net.Addr" [fillcolor=lightblue, style=filled];
+	"net.Addr" -> "net.Addr.Network()";
+	"net.Addr" -> "net.Addr.String()";
+
+	{rank=same; "net.Listen()"; "net.Dial()"; "net.DialTimeOut()"; "net.FileConn()"}
+}

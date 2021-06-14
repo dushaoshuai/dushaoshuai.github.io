@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dushaoshuai.github.io/posts/gnu_linux/desktop_entry_aslo_application_menu/</loc>
-    <lastmod>2021-06-11T23:51:30+08:00</lastmod>
-  </url><url>
     <loc>https://dushaoshuai.github.io/categories/</loc>
+    <lastmod>2021-06-14T17:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/tags/golang/</loc>
+    <lastmod>2021-06-14T17:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/series/golang/</loc>
+    <lastmod>2021-06-14T17:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/categories/golang/</loc>
+    <lastmod>2021-06-14T17:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/posts/golang/golang_net_package/</loc>
+    <lastmod>2021-06-14T17:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/series/</loc>
+    <lastmod>2021-06-14T17:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/tags/</loc>
+    <lastmod>2021-06-14T17:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dushaoshuai.github.io/posts/gnu_linux/desktop_entry_aslo_application_menu/</loc>
     <lastmod>2021-06-11T23:51:30+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/tags/dbms/</loc>
@@ -20,18 +38,6 @@
     <loc>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</loc>
     <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
-    <loc>https://dushaoshuai.github.io/tags/golang/</loc>
-    <lastmod>2021-06-11T23:51:30+08:00</lastmod>
-  </url><url>
-    <loc>https://dushaoshuai.github.io/series/golang/</loc>
-    <lastmod>2021-06-11T23:51:30+08:00</lastmod>
-  </url><url>
-    <loc>https://dushaoshuai.github.io/categories/golang/</loc>
-    <lastmod>2021-06-11T23:51:30+08:00</lastmod>
-  </url><url>
-    <loc>https://dushaoshuai.github.io/series/</loc>
-    <lastmod>2021-06-11T23:51:30+08:00</lastmod>
-  </url><url>
     <loc>https://dushaoshuai.github.io/tags/sql/</loc>
     <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
@@ -41,11 +47,8 @@
     <loc>https://dushaoshuai.github.io/categories/sql/</loc>
     <lastmod>2021-06-10T07:58:48+08:00</lastmod>
   </url><url>
-    <loc>https://dushaoshuai.github.io/tags/</loc>
-    <lastmod>2021-06-11T23:51:30+08:00</lastmod>
-  </url><url>
     <loc>https://dushaoshuai.github.io/posts/golang/golang_slice/</loc>
-    <lastmod>2021-06-11T23:51:30+08:00</lastmod>
+    <lastmod>2021-06-12T07:16:08+08:00</lastmod>
   </url><url>
     <loc>https://dushaoshuai.github.io/series/algorithm/</loc>
     <lastmod>2021-06-10T07:58:48+08:00</lastmod>
