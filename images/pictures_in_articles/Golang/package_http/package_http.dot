@@ -1,0 +1,13 @@
+digraph G {
+	node [shape=box];
+
+	"http.Handler" [fillcolor=lightblue, style=filled];
+	"http.Handler" -> "http.Handle()" [label=param];
+	"http.HandleFunc()";
+	{rank=same; "http.Handle()"; "http.HandleFunc()"};
+
+	"http.Handle()" -> "http.DefaultServeMux":sw [dir=back, arrowtail=none, label="register"];
+	"http.HandleFunc()" -> "http.DefaultServeMux":se [dir=back, arrowtail=none, label="register"];
+
+	"http.DefaultServeMux" -> "http.ListenAndServe()" [label=param];
+}

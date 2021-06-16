@@ -14,12 +14,60 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jun 2021 14:21:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/series/docker/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Docker -- create a containerized Go application</title>
+        <link>https://dushaoshuai.github.io/posts/docker/docker_create_a_containerized_go_application/</link>
+        <pubDate>Wed, 16 Jun 2021 14:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Wed, 16 Jun 2021 14:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/docker/docker_create_a_containerized_go_application/</guid>
+        <description>参考 : https://docs.docker.com/language/golang/ https://hub.docker.com/_/golang https://www.youtube.com/watch?v=lIbdPrUpGz4&amp;amp;list=PLzUGFf4GhXBL4GHXVcMMvzgtO8-WEJIoY&amp;amp;index=16 首先准备一个很简单的 Golang 项目 : 1 2 3 4 5 6 7 8 $ tree helloWorld/ helloWorld/ ├── Dockerfile ├── go.mod ├── go.sum └── helloWorld.go 0 directories, 4 files Dockerfile 1 2 3 4 5 6 7 8 9 FROMgolang:1.16.4-busterRUN mkdir /go/src/helloWorldCOPY . /go/src/helloWorld/WORKDIR/go/src/helloWorldRUN go build -o</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Docker.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Docker -- Quick start on ArchLinux</title>
@@ -28,7 +76,8 @@
         <author>aouaidug@gmail.com (shaouai)</author>
         <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/docker/docker_quick_start/</guid>
-        <description>Install 1  $ sudo pacman -S docker # Community Repo   optional dependencies : 1 2  $ # btrfs-progs: btrfs backend support $ # pigz: parallel gzip compressor support   start and enable docker.service : 1  $ sudo systemctl enable --now docker.service   verify operation (note we have to run the command with sudo) : 1  $ sudo docker info   Configuration add dushaouai to the docker user group : 1  $ sudo gpasswd -a dushaouai docker   thus dushaouai is able to run the docker CLI command as a non-root user after reboot</description>
+        <description>watch Video: Creating Containers from Scratch to understand how to write a docker
+Install 1  $ sudo pacman -S docker # Community Repo   optional dependencies : 1 2  $ # btrfs-progs: btrfs backend support $ # pigz: parallel gzip compressor support   start and enable docker.service : 1  $ sudo systemctl enable --now docker.service   verify operation (note we have to run the command with sudo) : 1  $ sudo docker info   Configuration add dushaouai to the docker user group : 1  $ sudo gpasswd -a dushaouai docker   thus dushaouai is able to run the docker CLI command as a non-root user after reboot</description>
         
         <dc:creator>dushaouai</dc:creator>
         <media:content url="https://dushaoshuai.github.io/images/feature/Docker.png" medium="image"><media:title type="html">featured image</media:title></media:content>

@@ -1768,7 +1768,8 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <h2 id="install">Install</h2>
+      <p>watch <a href="https://youtu.be/8fi7uSYlOdc">Video: Creating Containers from Scratch</a> to understand how to write a docker</p>
+<h2 id="install">Install</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1838,7 +1839,7 @@ $ docker pull docker/getting-started
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker images
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker images <span class="c1"># the same as docker image ls</span>
 REPOSITORY               TAG       IMAGE ID       CREATED        SIZE
 mysql                    latest    d757c3ddbb3b   <span class="m">45</span> hours ago   546MB
 docker/getting-started   latest    3ba8f2ff0727   <span class="m">10</span> days ago    27.9MB
@@ -1853,17 +1854,16 @@ docker/getting-started   latest    3ba8f2ff0727   <span class="m">10</span> days
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">$ docker run -d -p 8012:80 docker/getting-started
-$ docker run -d -p 80:80 docker/getting-started
-$ docker run -d -p 8013:80 docker/getting-started
+$ docker run -it -p 80:80 docker/getting-started  <span class="c1"># interactive mode</span>
+$ docker run -d --name awesomeName -p 8013:80 docker/getting-started
 </code></pre></td></tr></table>
 </div>
 </div><ul>
-<li>
-<p><code>-d</code> : run the container in detached mode (in the background)</p>
-</li>
-<li>
-<p><code>-p 80:80</code> : map port 80 of the host to port 80 in the container</p>
-</li>
+<li><code>-d</code> : run the container in detached mode (in the background)</li>
+<li><code>-p 8012:80</code> : map port 8012 of the host to port 80 in the container</li>
+<li><code>-i</code> : keep STDIN open even if not attached</li>
+<li><code>-t</code> : allocate a pseudo-TTY</li>
+<li><code>--name</code> : assign a name to the container</li>
 </ul>
 <h6 id="list-running-containers-">list running containers :</h6>
 <div class="highlight"><div class="chroma">
@@ -1875,31 +1875,59 @@ $ docker run -d -p 8013:80 docker/getting-started
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker container ls
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker ps  <span class="c1"># the same as docker container ls</span>
 CONTAINER ID IMAGE                  COMMAND                 CREATED         STATUS         PORTS                 NAMES
 635935c1a4d6 docker/getting-started <span class="s2">&#34;/docker-entrypoint.…&#34;</span>  <span class="m">27</span> seconds ago  Up <span class="m">25</span> seconds  0.0.0.0:8013-&gt;80/tcp  ele
 64cd2eb1806a docker/getting-started <span class="s2">&#34;/docker-entrypoint.…&#34;</span>  <span class="m">15</span> minutes ago  Up <span class="m">15</span> minutes  0.0.0.0:8012-&gt;80/tcp  kee
 46673b8da335 docker/getting-started <span class="s2">&#34;/docker-entrypoint.…&#34;</span>  <span class="m">16</span> minutes ago  Up <span class="m">16</span> minutes  0.0.0.0:80-&gt;80/tcp    ela
 </code></pre></td></tr></table>
 </div>
-</div><h1 id="kill-running-containers-">kill running containers :</h1>
+</div><h2 id="kill-running-containers-">kill running containers :</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">$ docker container <span class="nb">kill</span> ele          <span class="c1"># container name</span>
 $ docker container <span class="nb">kill</span> 64cd2eb1806a <span class="c1"># container ID</span>
 $ docker container <span class="nb">kill</span> ela          <span class="c1"># container name</span>
+$ docker <span class="nb">kill</span> image_name
+$ docker <span class="nb">kill</span> iamge_id
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="remove-image-">remove image :</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker image rm image_name
+$ docker image rm image_id
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="ref">ref</h2>
+<ul>
+<li>
 <p><a href="https://wiki.archlinux.org/index.php/Docker">Docker on ArchLinux</a></p>
+</li>
+<li>
 <p><a href="https://www.docker.com/">docker.com</a></p>
+</li>
+<li>
 <p><a href="https://docs.docker.com/get-started/">Docker: Get started</a></p>
+</li>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial">Docker for vsCode</a></p>
+</li>
+<li>
 <p><a href="https://www.docker.com/products/docker-hub">Docker Hub</a></p>
+</li>
+</ul>
 
     </article>
     
@@ -3243,9 +3271,8 @@ document.addEventListener('DOMContentLoaded', function () {
         </li>
       </ul>
     </li>
-  </ul>
-
-  <ul>
+    <li><a href="#kill-running-containers-">kill running containers :</a></li>
+    <li><a href="#remove-image-">remove image :</a></li>
     <li><a href="#ref">ref</a></li>
   </ul>
 </nav>
