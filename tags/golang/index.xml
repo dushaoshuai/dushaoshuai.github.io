@@ -26,7 +26,7 @@
         <link>https://dushaoshuai.github.io/posts/docker/docker_create_a_containerized_go_application/</link>
         <pubDate>Wed, 16 Jun 2021 14:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Wed, 16 Jun 2021 14:21:00 +0800</atom:modified>
+        <atom:modified>Wed, 16 Jun 2021 15:49:23 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/docker/docker_create_a_containerized_go_application/</guid>
         <description>参考 : https://docs.docker.com/language/golang/ https://hub.docker.com/_/golang https://www.youtube.com/watch?v=lIbdPrUpGz4&amp;amp;list=PLzUGFf4GhXBL4GHXVcMMvzgtO8-WEJIoY&amp;amp;index=16 首先准备一个很简单的 Golang 项目 : 1 2 3 4 5 6 7 8 $ tree helloWorld/ helloWorld/ ├── Dockerfile ├── go.mod ├── go.sum └── helloWorld.go 0 directories, 4 files Dockerfile 1 2 3 4 5 6 7 8 9 FROMgolang:1.16.4-busterRUN mkdir /go/src/helloWorldCOPY . /go/src/helloWorld/WORKDIR/go/src/helloWorldRUN go build -o</description>
         

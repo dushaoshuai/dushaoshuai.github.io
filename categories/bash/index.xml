@@ -122,7 +122,7 @@
         <link>https://dushaoshuai.github.io/posts/gnu_linux/decompress/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
+        <atom:modified>Wed, 16 Jun 2021 15:49:23 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/gnu_linux/decompress/</guid>
         <description>Linux command &amp;ndash; decompress .gz 1 $ gzip -d filename.gz -d , --decompress decompress 1 $ gzip -dc filename.gz &amp;gt; outputFilename by default, gzip compress FILES in-place -c , --stdout write on standard output, keep original files unchanged -k , --keep keep (don&amp;rsquo;t delete) input files .tar 1 $ tar -xvf filename.tar -x , --extract , --get extract files from an archive -v , --verbose verbosely list files processed -f</description>
         

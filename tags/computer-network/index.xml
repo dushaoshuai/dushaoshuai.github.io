@@ -14,48 +14,12 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 01 Jun 2021 11:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/tags/computer-network/index.xml" rel="self" type="application/rss+xml" />
     
 
-      
-      <item>
-        <title>interview</title>
-        <link>https://dushaoshuai.github.io/posts/computer_network/interview/</link>
-        <pubDate>Tue, 01 Jun 2021 11:21:00 +0800</pubDate>
-        <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/computer_network/interview/</guid>
-        <description>details { margin-top: 10px; } details summary { padding: 4px; width: 100%; background-color: #eeeeee; border: none; box-shadow: 1px 1px 2px #bbbbbb; cursor: pointer; } details p { background-color: #fefefe; padding: 4px; margin: 0; box-shadow: 1px 1px 2px #bbbbbb; } 问: 应用层协议有那些? HTTP (超文本传输协议) 定义了在客户端(浏览</description>
-        
-        <dc:creator>dushaouai</dc:creator>
-        <media:content url="https://dushaoshuai.github.io/images/feature/Computer_Network.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Computer Network</category>
-            
-          
-        
-        
-          
-            
-              <category>Computer Network</category>
-            
-          
-        
-        
-          
-            
-              <category>Computer Network</category>
-            
-          
-        
-      </item>
       
       <item>
         <title>HTTP message</title>
