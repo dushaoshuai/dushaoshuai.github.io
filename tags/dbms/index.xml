@@ -86,7 +86,7 @@
         <link>https://dushaoshuai.github.io/posts/dbms/common/mysql_terminology/</link>
         <pubDate>Sat, 29 May 2021 16:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
+        <atom:modified>Fri, 18 Jun 2021 10:30:34 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/dbms/common/mysql_terminology/</guid>
         <description>details { margin-top: 10px; } details summary { padding: 4px; width: 100%; background-color: #eeeeee; border: none; box-shadow: 1px 1px 2px #bbbbbb; cursor: pointer; } details p { background-color: #fefefe; padding: 4px; margin: 0; box-shadow: 1px 1px 2px #bbbbbb; } 重要参考: Consistent Nonlocking Reads 事务 ( transaction ) https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_transaction 事务 是可以 被提交 ( committed ) 或 被回滚 ( rolled</description>
         
