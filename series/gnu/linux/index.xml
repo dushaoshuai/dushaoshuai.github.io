@@ -21,6 +21,42 @@
 
       
       <item>
+        <title>Linux -- Crontab</title>
+        <link>https://dushaoshuai.github.io/posts/gnu_linux/crontab/</link>
+        <pubDate>Thu, 17 Jun 2021 23:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Thu, 17 Jun 2021 23:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/gnu_linux/crontab/</guid>
+        <description>cron 是基于时间的任务调度系统, 用于周期性地执行任务, 这类任务一般称为 cron jobs. 在我所使用的 5.10.41-1-MANJARO 上, cron 名为 cronie. 1 2 3 $ sudo pacman -S cronie $ sudo systemctl enable --now cronie.service $ systemctl status cronie crontab cron 根据</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/GNU_Linux.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Linux -- 管理应用菜单</title>
         <link>https://dushaoshuai.github.io/posts/gnu_linux/desktop_entry_aslo_application_menu/</link>
         <pubDate>Fri, 11 Jun 2021 11:21:00 +0800</pubDate>

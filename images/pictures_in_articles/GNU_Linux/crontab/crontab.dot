@@ -1,0 +1,10 @@
+digraph G {
+	node [shape=record, color=white];
+	crontab [label="<f0> minute | <f1> hour | <f2> day_of_month | <f3> month | <f4> day_of_week | <f5> command"];
+
+	"0-59" -> crontab:f0;
+	"0-23" -> crontab:f1;
+	"1-31" -> crontab:f2;
+	"1-12 or names" -> crontab:f3;
+	"0-7 or names (0 or 7 is Sunday)" -> crontab:f4;
+}
