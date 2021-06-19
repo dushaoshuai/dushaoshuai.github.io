@@ -46,9 +46,9 @@
         <link>https://dushaoshuai.github.io/posts/dbms/sql_statements_in_mysql_crash_course/</link>
         <pubDate>Fri, 18 Jun 2021 16:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Fri, 18 Jun 2021 16:21:00 +0800</atom:modified>
+        <atom:modified>Sat, 19 Jun 2021 09:08:35 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/dbms/sql_statements_in_mysql_crash_course/</guid>
-        <description>第 3 章 使用 MYSQL USE database_name 使用数据库 P16 SHOW DATABASES 返回可用数据库的一个列表 P17 SHOW TABLES 返回当前选择的数据库内可用表的列表 P17 SHOW COLUMNS FROM table_name 返回每个字段的详细信息, 包括字段名</description>
+        <description>第 3 章 使用 MYSQL USE database 使用数据库 P16 SHOW DATABASES 返回可用数据库的一个列表 P17 SHOW TABLES 返回当前选择的数据库内可用表的列表 P17 SHOW COLUMNS FROM table 返回每个字段的详细信息, 包括字段名</description>
         
         <dc:creator>dushaouai</dc:creator>
         <media:content url="https://dushaoshuai.github.io/images/feature/sql.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -1626,7 +1626,7 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <link>https://dushaoshuai.github.io/posts/distributed_task_scheduling/concept/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Fri, 18 Jun 2021 14:13:52 +0800</atom:modified>
+        <atom:modified>Sat, 19 Jun 2021 09:08:35 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/distributed_task_scheduling/concept/</guid>
         <description>crontab ssh -&amp;gt; 服务器 -&amp;gt; 配置任务 服务器宕机, 任务将终止调度 排查问题低效 分布式任务调度 可视化 web 后台 分布式架构, 集群化调度, 不存在单点故障 追踪任务执行状态</description>
         
@@ -1644,7 +1644,7 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <link>https://dushaoshuai.github.io/posts/distributed_task_scheduling/etcd/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        
+        <atom:modified>Sat, 19 Jun 2021 09:08:35 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/distributed_task_scheduling/etcd/</guid>
         <description>https://etcd.io https://etcd.io/docs/v3.5/quickstart/ 安装: quickStart 启动 : etcd 简单使用 : 1 2 3 4 5 6 7 $ # use etcdctl to set a key $ etcdctl put greeting &amp;#34;hello etcd!&amp;#34; OK $ # retrieve a key $ etcdctl get greeting greeting hello etcd!</description>
         
