@@ -25,7 +25,7 @@
         <link>https://dushaoshuai.github.io/posts/gnu_linux/crontab/</link>
         <pubDate>Thu, 17 Jun 2021 23:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Fri, 18 Jun 2021 10:30:34 +0800</atom:modified>
+        <atom:modified>Fri, 18 Jun 2021 14:13:52 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/gnu_linux/crontab/</guid>
         <description>cron 是基于时间的任务调度系统, 用于周期性地执行任务, 这类任务一般称为 cron jobs. 在我所使用的 5.10.41-1-MANJARO 上, cron 名为 cronie. 1 2 3 $ sudo pacman -S cronie $ sudo systemctl enable --now cronie.service $ systemctl status cronie crontab cron 根据</description>
         

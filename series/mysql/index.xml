@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>MySQL on DSS Blog</title>
+    <link>https://dushaoshuai.github.io/series/mysql/</link>
+    <description>Recent content in MySQL on DSS Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 18 Jun 2021 16:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/series/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Summary of SQL statements in MySQL Crash Course</title>
+        <link>https://dushaoshuai.github.io/posts/dbms/sql_statements_in_mysql_crash_course/</link>
+        <pubDate>Fri, 18 Jun 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 18 Jun 2021 16:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/sql_statements_in_mysql_crash_course/</guid>
+        <description>第 3 章 使用 MYSQL USE database_name 使用数据库 P16 SHOW DATABASES 返回可用数据库的一个列表 P17 SHOW TABLES 返回当前选择的数据库内可用表的列表 P17 SHOW COLUMNS FROM table_name 返回每个字段的详细信息, 包括字段名</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/sql.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>MySQL</category>
+            
+          
+            
+              <category>SQL</category>
+            
+          
+        
+        
+          
+            
+              <category>MySQL</category>
+            
+          
+            
+              <category>SQL</category>
+            
+          
+        
+        
+          
+            
+              <category>MySQL</category>
+            
+          
+            
+              <category>SQL</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

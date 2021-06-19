@@ -14,12 +14,48 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 16 Jun 2021 14:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 18 Jun 2021 16:21:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>MySQL</title>
+        <link>https://dushaoshuai.github.io/series/mysql/</link>
+        <pubDate>Fri, 18 Jun 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/series/mysql/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>SQL</title>
+        <link>https://dushaoshuai.github.io/series/sql/</link>
+        <pubDate>Fri, 18 Jun 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/series/sql/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Docker</title>
@@ -76,66 +112,12 @@
       </item>
       
       <item>
-        <title>SQL</title>
-        <link>https://dushaoshuai.github.io/series/sql/</link>
-        <pubDate>Thu, 10 Jun 2021 16:21:00 +0800</pubDate>
-        <author>aouaidug@gmail.com (shaouai)</author>
-        
-        <guid>https://dushaoshuai.github.io/series/sql/</guid>
-        <description></description>
-        
-        <dc:creator>shaouai</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>algorithm</title>
         <link>https://dushaoshuai.github.io/series/algorithm/</link>
         <pubDate>Mon, 07 Jun 2021 09:51:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
         
         <guid>https://dushaoshuai.github.io/series/algorithm/</guid>
-        <description></description>
-        
-        <dc:creator>shaouai</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Computer Network</title>
-        <link>https://dushaoshuai.github.io/series/computer-network/</link>
-        <pubDate>Tue, 01 Jun 2021 11:21:00 +0800</pubDate>
-        <author>aouaidug@gmail.com (shaouai)</author>
-        
-        <guid>https://dushaoshuai.github.io/series/computer-network/</guid>
-        <description></description>
-        
-        <dc:creator>shaouai</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>RDBMS</title>
-        <link>https://dushaoshuai.github.io/series/rdbms/</link>
-        <pubDate>Sat, 29 May 2021 16:21:00 +0800</pubDate>
-        <author>aouaidug@gmail.com (shaouai)</author>
-        
-        <guid>https://dushaoshuai.github.io/series/rdbms/</guid>
         <description></description>
         
         <dc:creator>shaouai</dc:creator>
@@ -280,6 +262,24 @@
         <author>aouaidug@gmail.com (shaouai)</author>
         
         <guid>https://dushaoshuai.github.io/series/mariadb/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>RDBMS</title>
+        <link>https://dushaoshuai.github.io/series/rdbms/</link>
+        <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/series/rdbms/</guid>
         <description></description>
         
         <dc:creator>shaouai</dc:creator>
