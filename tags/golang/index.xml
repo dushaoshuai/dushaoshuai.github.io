@@ -107,11 +107,11 @@
       
       <item>
         <title>Go and SQL</title>
-        <link>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</link>
+        <link>https://dushaoshuai.github.io/posts/dbms/sql/common/go_and_sql/</link>
         <pubDate>Thu, 10 Jun 2021 16:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</guid>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/sql/common/go_and_sql/</guid>
         <description>参考 https://golang.org/pkg/database/sql/ Go database/sql tutorial https://github.com/golang/go/wiki/SQLInterface https://github.com/go-sql-driver/mysql/wiki/Examples https://golang.org/doc/go1.8#database_sql https://golang.org/pkg/context/ database driver database/sql 是 gopher 操作 SQL-like 数据库的工具, 支持 context . database/sql 必须与driver 联合使用. https://golang.org/s/sqldrivers 提供了针对不同类型数据库的 driver , 本篇总结使用 github.com/go-sql-driver/mysql 和 database/sql 操</description>
         
         <dc:creator>dushaouai</dc:creator>

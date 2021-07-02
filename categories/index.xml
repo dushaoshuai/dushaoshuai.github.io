@@ -14,12 +14,66 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 18 Jun 2021 16:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jul 2021 16:21:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Computer system</title>
+        <link>https://dushaoshuai.github.io/categories/computer-system/</link>
+        <pubDate>Fri, 02 Jul 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/categories/computer-system/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>mongoDB</title>
+        <link>https://dushaoshuai.github.io/categories/mongodb/</link>
+        <pubDate>Thu, 01 Jul 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/categories/mongodb/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Docker</title>
+        <link>https://dushaoshuai.github.io/categories/docker/</link>
+        <pubDate>Sun, 20 Jun 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/categories/docker/</guid>
+        <description></description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>MySQL</title>
@@ -46,24 +100,6 @@
         <author>aouaidug@gmail.com (shaouai)</author>
         
         <guid>https://dushaoshuai.github.io/categories/sql/</guid>
-        <description></description>
-        
-        <dc:creator>shaouai</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Docker</title>
-        <link>https://dushaoshuai.github.io/categories/docker/</link>
-        <pubDate>Wed, 16 Jun 2021 14:21:00 +0800</pubDate>
-        <author>aouaidug@gmail.com (shaouai)</author>
-        
-        <guid>https://dushaoshuai.github.io/categories/docker/</guid>
         <description></description>
         
         <dc:creator>shaouai</dc:creator>

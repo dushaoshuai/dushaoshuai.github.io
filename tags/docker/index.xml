@@ -14,12 +14,84 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 16 Jun 2021 14:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jun 2021 11:21:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Docker -- help information</title>
+        <link>https://dushaoshuai.github.io/posts/docker/docker_help/</link>
+        <pubDate>Sun, 20 Jun 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/docker/docker_help/</guid>
+        <description>想查看 docker 怎样列出所有的 container, 于是使用了下面的命令 : 1 $ docker help container 但是从里面找到的只有一行相关的 : 1 ls List containers 但是使用 docker container ls 只能查看到正在运行的 container, 而不是所</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Docker.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Docker -- MongoDB</title>
+        <link>https://dushaoshuai.github.io/posts/docker/docker_mongodb/</link>
+        <pubDate>Sun, 20 Jun 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/docker/docker_mongodb/</guid>
+        <description>想装个 MongoDB , 但是 Arch 官方仓库没有, 从 AUR 装失败了, 不想折腾了. 想到肯定有 docker 镜像, 就试了一下, 还真成了. 安装并连接 1 2 $ docker pull mongo $ docker run --name container_name -d -p 27017:27017 mongo 关键</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Docker.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Docker -- create a containerized Go application</title>
@@ -74,7 +146,7 @@
         <link>https://dushaoshuai.github.io/posts/docker/docker_quick_start/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Wed, 16 Jun 2021 15:49:23 +0800</atom:modified>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/docker/docker_quick_start/</guid>
         <description>watch Video: Creating Containers from Scratch to understand how to write a docker
 Install 1  $ sudo pacman -S docker # Community Repo   optional dependencies : 1 2  $ # btrfs-progs: btrfs backend support $ # pigz: parallel gzip compressor support   start and enable docker.service : 1  $ sudo systemctl enable --now docker.service   verify operation (note we have to run the command with sudo) : 1  $ sudo docker info   Configuration add dushaouai to the docker user group : 1  $ sudo gpasswd -a dushaouai docker   thus dushaouai is able to run the docker CLI command as a non-root user after reboot</description>

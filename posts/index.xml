@@ -21,12 +21,156 @@
 
       
       <item>
+        <title>Computer system -- disk sector</title>
+        <link>https://dushaoshuai.github.io/posts/computer_systems/storage/sector/</link>
+        <pubDate>Fri, 02 Jul 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/computer_systems/storage/sector/</guid>
+        <description>Disk Geometry disks platters surfaces tracks sectors gaps spindle cylinders 磁盘由若干盘片 ( platter ) 组成. 每张盘片有两面 ( surface ), 盘片表面附着磁性记录材料. 盘片中心的轴 ( spindle ) 以一定速率旋转盘片. 盘片的表面</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/unclassified.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Computer system</category>
+            
+          
+        
+        
+          
+            
+              <category>Computer system</category>
+            
+          
+        
+        
+          
+            
+              <category>Computer system</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>MongoDB -- mongo shell quick start</title>
+        <link>https://dushaoshuai.github.io/posts/dbms/nosql/mongo_shell/</link>
+        <pubDate>Thu, 01 Jul 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/nosql/mongo_shell/</guid>
+        <description>mongoDB 是 schema free 的文档数据库, 使用 BSON 存储文档. mongo shell 是 mongoDB 的交互式 JavaScript 接口. 重要参考 mongo shell : https://docs.mongodb.com/manual/mongo/ 所有 mongo shell 方法: https://docs.mongodb.com/manual/reference/method/#mongo-shell-methods 查看 mongo shell 帮助: https://docs.mongodb.com/manual/tutorial/access-mongo-shell-help/#cursor-help 查看帮助 help 列举数据库 (database) show databases show dbs</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/mongodb.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mongoDB</category>
+            
+          
+        
+        
+          
+            
+              <category>mongoDB</category>
+            
+          
+        
+        
+          
+            
+              <category>mongoDB</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Docker -- help information</title>
+        <link>https://dushaoshuai.github.io/posts/docker/docker_help/</link>
+        <pubDate>Sun, 20 Jun 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/docker/docker_help/</guid>
+        <description>想查看 docker 怎样列出所有的 container, 于是使用了下面的命令 : 1 $ docker help container 但是从里面找到的只有一行相关的 : 1 ls List containers 但是使用 docker container ls 只能查看到正在运行的 container, 而不是所</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Docker.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Docker -- MongoDB</title>
+        <link>https://dushaoshuai.github.io/posts/docker/docker_mongodb/</link>
+        <pubDate>Sun, 20 Jun 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/docker/docker_mongodb/</guid>
+        <description>想装个 MongoDB , 但是 Arch 官方仓库没有, 从 AUR 装失败了, 不想折腾了. 想到肯定有 docker 镜像, 就试了一下, 还真成了. 安装并连接 1 2 $ docker pull mongo $ docker run --name container_name -d -p 27017:27017 mongo 关键</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Docker.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Summary of SQL statements in MySQL Crash Course</title>
-        <link>https://dushaoshuai.github.io/posts/dbms/sql_statements_in_mysql_crash_course/</link>
+        <link>https://dushaoshuai.github.io/posts/dbms/sql/sql_statements_in_mysql_crash_course/</link>
         <pubDate>Fri, 18 Jun 2021 16:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 19 Jun 2021 09:08:35 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/dbms/sql_statements_in_mysql_crash_course/</guid>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/sql/sql_statements_in_mysql_crash_course/</guid>
         <description>第 3 章 使用 MYSQL USE database 使用数据库 P16 SHOW DATABASES 返回可用数据库的一个列表 P17 SHOW TABLES 返回当前选择的数据库内可用表的列表 P17 SHOW COLUMNS FROM table 返回每个字段的详细信息, 包括字段名</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -226,11 +370,11 @@
       
       <item>
         <title>Go and SQL</title>
-        <link>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</link>
+        <link>https://dushaoshuai.github.io/posts/dbms/sql/common/go_and_sql/</link>
         <pubDate>Thu, 10 Jun 2021 16:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/dbms/common/go_and_sql/</guid>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/sql/common/go_and_sql/</guid>
         <description>参考 https://golang.org/pkg/database/sql/ Go database/sql tutorial https://github.com/golang/go/wiki/SQLInterface https://github.com/go-sql-driver/mysql/wiki/Examples https://golang.org/doc/go1.8#database_sql https://golang.org/pkg/context/ database driver database/sql 是 gopher 操作 SQL-like 数据库的工具, 支持 context . database/sql 必须与driver 联合使用. https://golang.org/s/sqldrivers 提供了针对不同类型数据库的 driver , 本篇总结使用 github.com/go-sql-driver/mysql 和 database/sql 操</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -660,11 +804,11 @@ Three ways to find the values of $GOOS and $GOARCH :  official documentation /us
       
       <item>
         <title>[deprecated] Install and initialize MariaDB on Manjaro</title>
-        <link>https://dushaoshuai.github.io/posts/dbms/mariadb/deprecated_install_and_init_mariadb/</link>
+        <link>https://dushaoshuai.github.io/posts/dbms/sql/mariadb/deprecated_install_and_init_mariadb/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/dbms/mariadb/deprecated_install_and_init_mariadb/</guid>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/sql/mariadb/deprecated_install_and_init_mariadb/</guid>
         <description>这篇文章中有许多错误, 留下来只是记录一下走过的弯路, 最新的文章链接 Ref MariaDB on ArchLinux A MariaDB Primer MariaDB Basics Install 1 $ sudo pacman -S mariadb Initialize 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -875,7 +1019,7 @@ Three ways to find the values of $GOOS and $GOARCH :  official documentation /us
         <link>https://dushaoshuai.github.io/posts/docker/docker_quick_start/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Wed, 16 Jun 2021 15:49:23 +0800</atom:modified>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/docker/docker_quick_start/</guid>
         <description>watch Video: Creating Containers from Scratch to understand how to write a docker
 Install 1  $ sudo pacman -S docker # Community Repo   optional dependencies : 1 2  $ # btrfs-progs: btrfs backend support $ # pigz: parallel gzip compressor support   start and enable docker.service : 1  $ sudo systemctl enable --now docker.service   verify operation (note we have to run the command with sudo) : 1  $ sudo docker info   Configuration add dushaouai to the docker user group : 1  $ sudo gpasswd -a dushaouai docker   thus dushaouai is able to run the docker CLI command as a non-root user after reboot</description>
@@ -969,11 +1113,11 @@ Install 1  $ sudo pacman -S docker # Community Repo   optional dependencies : 1 
       
       <item>
         <title>GitHub REST API</title>
-        <link>https://dushaoshuai.github.io/posts/computer_network/http/github_rest_api/</link>
+        <link>https://dushaoshuai.github.io/posts/computer_systems/computer_network/http/github_rest_api/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/computer_network/http/github_rest_api/</guid>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/computer_systems/computer_network/http/github_rest_api/</guid>
         <description>注意 &amp;amp; 是 Bash 的元字符, 如果 URL 中有 &amp;amp; 的话, 需要将其转义: \&amp;amp;sort=comment 或者 &amp;quot;&amp;amp;sort=comment&amp;quot; Creating a personal access token 官方文档链接 Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password for Git over HTTPS, or can be used to authenticate to the</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -1222,11 +1366,11 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
       
       <item>
         <title>HTTP message</title>
-        <link>https://dushaoshuai.github.io/posts/computer_network/http/http_message/</link>
+        <link>https://dushaoshuai.github.io/posts/computer_systems/computer_network/http/http_message/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/computer_network/http/http_message/</guid>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/computer_systems/computer_network/http/http_message/</guid>
         <description>RFC 1945 RFC 2616 RFC 7540 HTTP 报文(message) 分为 请求报文(request message) 和 响应报文(response message) . 以 telnet 为例: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -1266,11 +1410,11 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
       
       <item>
         <title>HTTP status code</title>
-        <link>https://dushaoshuai.github.io/posts/computer_network/http/http_status_code/</link>
+        <link>https://dushaoshuai.github.io/posts/computer_systems/computer_network/http/http_status_code/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/computer_network/http/http_status_code/</guid>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/computer_systems/computer_network/http/http_status_code/</guid>
         <description>总览 1xx : Informational - 收到请求, 继续处理 2xx : Success - 操作被成功地接收、理解和接受 3xx : Redirection - 为了完成请求，必须采取进一步的措施 4xx : Client Error - 请求包含错误的语法, 或</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -1454,11 +1598,11 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
       
       <item>
         <title>MariaDB -- Install and initialize MariaDB on Manjaro</title>
-        <link>https://dushaoshuai.github.io/posts/dbms/mariadb/install_and_init_mariadb/</link>
+        <link>https://dushaoshuai.github.io/posts/dbms/sql/mariadb/install_and_init_mariadb/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 24 Apr 2021 23:10:49 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/dbms/mariadb/install_and_init_mariadb/</guid>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/sql/mariadb/install_and_init_mariadb/</guid>
         <description>Install 1  $ sudo pacman -S mariadb   Initialize 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32  $ sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql Installing MariaDB/MySQL system tables in &amp;#39;/var/lib/mysql&amp;#39; ... OK ​ To start mysqld at boot time you have to copy support-files/mysql.server to the right place for your system ​ ​ Two all-privilege accounts were created.</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -1494,11 +1638,11 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
       
       <item>
         <title>RDBMS Terminology</title>
-        <link>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</link>
+        <link>https://dushaoshuai.github.io/posts/dbms/sql/common/rdbms_terminology/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Thu, 10 Jun 2021 07:58:48 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/dbms/common/rdbms_terminology/</guid>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/sql/common/rdbms_terminology/</guid>
         <description>DBMS(database management system) : 维护数据库的软件系统. RDBMS(relational database management system) : 维护关系型数据库的软件系统. 每张 table 由许多 row 和 column 组成. row &amp;ndash; entity &amp;ndash; record &amp;ndash; tuple column &amp;ndash; attribute &amp;ndash; field Hierarchical Database Model(分层数据</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -1602,10 +1746,28 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
       
       <item>
         <title></title>
+        <link>https://dushaoshuai.github.io/posts/dbms/sql/common/mysql_index./</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/sql/common/mysql_index./</guid>
+        <description>mysql 的索引原理和数据结构 B+ 树和 B 树的区别是什么? mysql 聚簇索引和非聚簇索引的区别 ? 使用 mysql 索引都有什么原则 ? 不同的存储引擎是如何进行实际存储的 ? mysql 的</description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
         <link>https://dushaoshuai.github.io/posts/distributed_task_scheduling/concept/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 19 Jun 2021 09:08:35 +0800</atom:modified>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/distributed_task_scheduling/concept/</guid>
         <description>crontab ssh -&amp;gt; 服务器 -&amp;gt; 配置任务 服务器宕机, 任务将终止调度 排查问题低效 分布式任务调度 可视化 web 后台 分布式架构, 集群化调度, 不存在单点故障 追踪任务执行状态</description>
         
@@ -1623,9 +1785,9 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <link>https://dushaoshuai.github.io/posts/distributed_task_scheduling/etcd/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sat, 19 Jun 2021 09:08:35 +0800</atom:modified>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/distributed_task_scheduling/etcd/</guid>
-        <description>https://etcd.io https://etcd.io/docs/v3.5/quickstart/ 安装: quickStart 启动 : etcd 简单使用 : 1 2 3 4 5 6 7 $ # use etcdctl to set a key $ etcdctl put greeting &amp;#34;hello etcd!&amp;#34; OK $ # retrieve a key $ etcdctl get greeting greeting hello etcd!</description>
+        <description>https://etcd.io https://etcd.io/docs/v3.5/quickstart/ 安装: quickStart 启动 : etcd 简单使用 : 1 2 3 4 5 6 7 $ # use etcdctl to set a key $ etcdctl put greeting &amp;#34;hello etcd!&amp;#34; OK $ # retrieve a key $ etcdctl get greeting greeting hello etcd! etcd &amp;ndash; Highly-available key value store for shared configuration and service discovery &amp;ndash; 适用于共享配置和</description>
         
         <dc:creator>shaouai</dc:creator>
         

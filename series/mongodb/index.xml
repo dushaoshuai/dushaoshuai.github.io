@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>mongoDB on DSS Blog</title>
+    <link>https://dushaoshuai.github.io/series/mongodb/</link>
+    <description>Recent content in mongoDB on DSS Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 01 Jul 2021 16:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/series/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>MongoDB -- mongo shell quick start</title>
+        <link>https://dushaoshuai.github.io/posts/dbms/nosql/mongo_shell/</link>
+        <pubDate>Thu, 01 Jul 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/dbms/nosql/mongo_shell/</guid>
+        <description>mongoDB 是 schema free 的文档数据库, 使用 BSON 存储文档. mongo shell 是 mongoDB 的交互式 JavaScript 接口. 重要参考 mongo shell : https://docs.mongodb.com/manual/mongo/ 所有 mongo shell 方法: https://docs.mongodb.com/manual/reference/method/#mongo-shell-methods 查看 mongo shell 帮助: https://docs.mongodb.com/manual/tutorial/access-mongo-shell-help/#cursor-help 查看帮助 help 列举数据库 (database) show databases show dbs</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/mongodb.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mongoDB</category>
+            
+          
+        
+        
+          
+            
+              <category>mongoDB</category>
+            
+          
+        
+        
+          
+            
+              <category>mongoDB</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

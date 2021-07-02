@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Computer system on DSS Blog</title>
+    <link>https://dushaoshuai.github.io/categories/computer-system/</link>
+    <description>Recent content in Computer system on DSS Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
+    <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
+    <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 02 Jul 2021 16:21:00 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    
+        <atom:link href="https://dushaoshuai.github.io/categories/computer-system/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Computer system -- disk sector</title>
+        <link>https://dushaoshuai.github.io/posts/computer_systems/storage/sector/</link>
+        <pubDate>Fri, 02 Jul 2021 16:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/computer_systems/storage/sector/</guid>
+        <description>Disk Geometry disks platters surfaces tracks sectors gaps spindle cylinders 磁盘由若干盘片 ( platter ) 组成. 每张盘片有两面 ( surface ), 盘片表面附着磁性记录材料. 盘片中心的轴 ( spindle ) 以一定速率旋转盘片. 盘片的表面</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/unclassified.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Computer system</category>
+            
+          
+        
+        
+          
+            
+              <category>Computer system</category>
+            
+          
+        
+        
+          
+            
+              <category>Computer system</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
