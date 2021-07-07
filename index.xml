@@ -190,7 +190,7 @@
         <link>https://dushaoshuai.github.io/posts/dbms/sql/sql_statements_in_mysql_crash_course/</link>
         <pubDate>Fri, 18 Jun 2021 16:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <atom:modified>Wed, 07 Jul 2021 17:25:21 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/dbms/sql/sql_statements_in_mysql_crash_course/</guid>
         <description>第 3 章 使用 MYSQL USE database 使用数据库 P16 SHOW DATABASES 返回可用数据库的一个列表 P17 SHOW TABLES 返回当前选择的数据库内可用表的列表 P17 SHOW COLUMNS FROM table 返回每个字段的详细信息, 包括字段名</description>
         
@@ -530,7 +530,7 @@
         <link>https://dushaoshuai.github.io/posts/computer_systems/computer_network/interview/</link>
         <pubDate>Tue, 01 Jun 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <atom:modified>Wed, 07 Jul 2021 17:25:21 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/computer_systems/computer_network/interview/</guid>
         <description>details { margin-top: 10px; } details summary { padding: 4px; width: 100%; background-color: #eeeeee; border: none; box-shadow: 1px 1px 2px #bbbbbb; cursor: pointer; } details p { background-color: #fefefe; padding: 4px; margin: 0; box-shadow: 1px 1px 2px #bbbbbb; } 问: 叙述5层因特网协议栈? 因特网协议栈以分层的方式组织协议以及</description>
         
@@ -1806,7 +1806,7 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <link>https://dushaoshuai.github.io/posts/dbms/sql/common/mysql_index./</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <atom:modified>Wed, 07 Jul 2021 17:25:21 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/dbms/sql/common/mysql_index./</guid>
         <description>mysql 的索引原理和数据结构 B+ 树和 B 树的区别是什么? mysql 聚簇索引和非聚簇索引的区别 ? 使用 mysql 索引都有什么原则 ? 不同的存储引擎是如何进行实际存储的 ? mysql 的</description>
         
@@ -1824,7 +1824,7 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <link>https://dushaoshuai.github.io/posts/distributed_task_scheduling/concept/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Fri, 02 Jul 2021 17:12:40 +0800</atom:modified>
+        <atom:modified>Wed, 07 Jul 2021 17:25:21 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/distributed_task_scheduling/concept/</guid>
         <description>crontab ssh -&amp;gt; 服务器 -&amp;gt; 配置任务 服务器宕机, 任务将终止调度 排查问题低效 分布式任务调度 可视化 web 后台 分布式架构, 集群化调度, 不存在单点故障 追踪任务执行状态</description>
         
