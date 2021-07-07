@@ -2466,6 +2466,14 @@ db.details.aggregate([{$unwind: '$hobbies'}, {$group: {_id: {hobbies: '$hobbies'
 <li>对任务的分布式锁, 防止集群并发</li>
 <li>将任务执行的结果保存到 mongodb</li>
 </ol>
+<h2 id="worker-服务注册与发现">worker 服务注册与发现</h2>
+<p>worker 进行服务注册</p>
+<ul>
+<li>启动后获取本机网卡 IP, 作为节点唯一标识</li>
+<li>启动服务注册协程, 首先创建 lwase 并自动续组</li>
+<li>带着 lease 注册到 /cron/workers/{IP} 下, 供服务发现</li>
+</ul>
+<p>master 进行服务发现</p>
 
     </article>
     
@@ -3824,6 +3832,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#workder">workder</a></li>
       </ul>
     </li>
+    <li><a href="#worker-服务注册与发现">worker 服务注册与发现</a></li>
   </ul>
 </nav>
         </div>

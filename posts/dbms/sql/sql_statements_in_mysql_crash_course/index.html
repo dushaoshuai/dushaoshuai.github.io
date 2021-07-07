@@ -1748,7 +1748,7 @@
   
   &nbsp;&middot;&nbsp; <time class="single__info" title="Modified At"> 📝&nbsp;Jul 2, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">✍️&nbsp;dushaouai</span>
   
@@ -1913,6 +1913,228 @@
 <ul>
 <li>根据 column2 升序对 column1 进行排序, 取第一个结果.</li>
 <li>P33</li>
+</ul>
+<h3 id="第-67-章-过滤数据-where-and-or">第 6,7 章 过滤数据 WHERE, AND, OR</h3>
+<h4 id="search-criteria--filter-condition">search criteria / filter condition</h4>
+<ul>
+<li>搜索条件, 过滤条件</li>
+<li>P34</li>
+</ul>
+<h4 id="select-column1-column2-from-table-where-column2--25">SELECT column1, column2 FROM table WHERE column2 = 2.5</h4>
+<ul>
+<li>相等测试</li>
+<li>P34</li>
+</ul>
+<h4 id="select-column1-from-table-where-colomn2--25-order-by-column3">SELECT column1 FROM table WHERE colomn2 = 2.5 ORDER BY column3</h4>
+<ul>
+<li>ORDER BY 子句应该位于 WHERE 子句后</li>
+<li>P35</li>
+</ul>
+<h4 id="operators-used-in-where-clause">operators used in WHERE clause</h4>
+<ul>
+<li>
+<table>
+<thead>
+<tr>
+<th>操作符</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>=</td>
+<td align="left">等于</td>
+</tr>
+<tr>
+<td>&lt;&gt;</td>
+<td align="left">不等于</td>
+</tr>
+<tr>
+<td>!=</td>
+<td align="left">不等于</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td align="left">小于</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td align="left">小于等于</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td align="left">大于</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td align="left">大于等于</td>
+</tr>
+<tr>
+<td>BETWEEN</td>
+<td align="left">在指定的两个值之间</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>P35</p>
+</li>
+</ul>
+<h4 id="mysql-does-case-insensitive-match-by-default">MySQL does case-insensitive match by default</h4>
+<ul>
+<li>P36</li>
+</ul>
+<h4 id="select-column1-column2-from-table-where-column1-between-10-and-20">SELECT column1, column2 FROM table WHERE column1 BETWEEN 10 AND 20</h4>
+<ul>
+<li>BETWEEN 在 WHERE 子句中的用法, <code>BETWEEN .. AND ...</code></li>
+<li>P38</li>
+</ul>
+<h4 id="select-column1-column2-from-table-where-column3-is-null">SELECT column1, column2 FROM table WHERE column3 IS NULL</h4>
+<ul>
+<li>返回 column3 是 <code>NULL</code> 值的行</li>
+<li>需要注意, 过滤不满足某个条件的行时, 值为 <code>NULL</code> 的行是不会被返回的</li>
+<li>P38</li>
+</ul>
+<h4 id="select-column1-column2-from-table-where-column1--23-and-column2--45">SELECT column1, column2 FROM table WHERE column1 = 23 AND column2 = 45</h4>
+<ul>
+<li>使用 <code>AND</code> 组合多个 <code>WHERE</code> 子句</li>
+<li>P40</li>
+</ul>
+<h4 id="select-column1-column2-from-table-where-column1--23-or-column2--45">SELECT column1, column2 FROM table WHERE column1 = 23 OR column2 = 45</h4>
+<ul>
+<li>使用 <code>OR</code> 组合多个 <code>WHERE</code> 子句</li>
+<li>P41</li>
+</ul>
+<h4 id="select-column1-from-table-where-column1--23-or-column2--45-and-column3--10">SELECT column1 FROM table WHERE (column1 = 23 OR column2 = 45) AND column3 = 10</h4>
+<ul>
+<li><code>AND</code> 操作符比 <code>OR</code> 操作符拥有更高的u优先级</li>
+<li>使用 <code>( )</code> 进行明确的分组</li>
+<li>P42</li>
+</ul>
+<h4 id="select-column1-from-table-where-column1-in-34-45-order-by-column2">SElECT column1 FROM table WHERE column1 IN (34, 45) ORDER BY column2</h4>
+<ul>
+<li><code>IN</code> 指定条件范围</li>
+<li><code>IN</code> 相比 <code>OR</code> 的一些优点 :
+<ul>
+<li>语法清楚直观</li>
+<li>一般执行更快</li>
+<li>最大优点是可以包含其它 <code>SELECT</code> 语句, 使得能够动态地创建 <code>WHERE</code> 子句, 称为子查询</li>
+</ul>
+</li>
+<li>P43</li>
+</ul>
+<h4 id="select-column1-from-table-where-column1-not-in-23-45">SELECT column1 FROM table WHERE column1 NOT IN (23, 45)</h4>
+<ul>
+<li><code>NOT</code> 对 <code>IN</code> , <code>BETWEEN</code> 和 <code>EXISTS</code> 取反</li>
+<li>P45</li>
+</ul>
+<h3 id="第-8-章-同配符-like">第 8 章 同配符 LIKE</h3>
+<h4 id="predicate">predicate</h4>
+<ul>
+<li><code>LIKE</code> 是谓语而不是操作符</li>
+<li>P47</li>
+</ul>
+<h4 id="select-david-like-dv">SELECT &lsquo;David!&rsquo; LIKE &lsquo;%d%v%&rsquo;</h4>
+<ul>
+<li>结果是布尔值 1, 表示匹配到了</li>
+<li>默认不区分大小写</li>
+<li><code>%</code> 匹配任意数量的任意字符, 即使是 0 个字符, 但不匹配 <code>NULL</code></li>
+<li><a href="https://dev.mysql.com/doc/refman/8.0/en/string-comparison-functions.html#operator_like">https://dev.mysql.com/doc/refman/8.0/en/string-comparison-functions.html#operator_like</a></li>
+<li>尾空格可能会干扰匹配, 可以使用函数 <code>RTrim()</code> 去掉尾空格</li>
+<li>P48</li>
+</ul>
+<h4 id="select-david-like-david_">SELECT &lsquo;David!&rsquo; LIKE &lsquo;David_&rsquo;</h4>
+<ul>
+<li>结果是布尔值 1, 表示匹配到了</li>
+<li><code>_</code> 匹配单个字符</li>
+<li>P49</li>
+</ul>
+<h4 id="使用通配符的技巧">使用通配符的技巧</h4>
+<p>通配符搜索比相等, 不相等之类的处理一般要花费更长时间.</p>
+<ul>
+<li>不要过度使用通配符. 如果其他操作符能达到相同目的, 应该使用其他操作符.</li>
+<li>尽量不要将通配符放在搜索模式(由字面值、通配符或两者组合构成的搜索条件) 的最开始, 这样是最慢的.</li>
+<li>P49</li>
+</ul>
+<h3 id="第-10-章-计算字段-concat-rtrim-ltrim-trim-as">第 10 章 计算字段 Concat() RTrim() LTrim() Trim() AS</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="w"> </span><span class="k">SELECT</span><span class="w"> </span><span class="nf">Concat</span><span class="p">(</span><span class="nf">RTrim</span><span class="p">(</span><span class="n">vend_name</span><span class="p">),</span><span class="w"> </span><span class="s1">&#39; (&#39;</span><span class="p">,</span><span class="w"> </span><span class="nf">RTrim</span><span class="p">(</span><span class="n">vend_country</span><span class="p">),</span><span class="w"> </span><span class="s1">&#39;)&#39;</span><span class="p">)</span><span class="w">
+</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">vend_title</span><span class="w"> 
+</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">vendors</span><span class="w">
+</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">vend_name</span><span class="p">;</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>Concat()</code> 函数用于拼接多个列</li>
+<li><code>RTrim()</code> , <code>LTrim()</code> , <code>Trim()</code> 函数分别去掉参数右边, 左边, 两边的值</li>
+<li><code>AS</code> 关键字产生一个别名, 产生的别名就像是真的存在于表中</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="k">SELECT</span><span class="w"> </span><span class="n">prod_id</span><span class="w">
+</span><span class="w">       </span><span class="n">quantity</span><span class="p">,</span><span class="w">
+</span><span class="w">       </span><span class="n">item_price</span><span class="p">,</span><span class="w">
+</span><span class="w">       </span><span class="n">quantity</span><span class="o">*</span><span class="n">item_price</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">expanded_price</span><span class="w">
+</span><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">orderitems</span><span class="w">
+</span><span class="w"></span><span class="k">WHERE</span><span class="w"> </span><span class="n">order_num</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20005</span><span class="p">;</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>AS</code> 为 <code>quantity*item_price</code> 的计算结果产生一个别名 <code>expanded_price</code> , 似乎 <code>expanded_price</code> 是真的存在于表中</li>
+<li><code>+</code> , <code>-</code> , <code>*</code> , <code>/</code> 都支持</li>
+</ul>
+<h4 id="select-32----6">SELECT 3*2 &ndash;&gt; 6</h4>
+<ul>
+<li>P67</li>
+</ul>
+<h4 id="select-trimabc-----abc">SELECT Trim(&lsquo;abc &lsquo;) &ndash;&gt; abc</h4>
+<ul>
+<li>P67</li>
+</ul>
+<h4 id="select-now----2021-07-03-220427">SELECT Now() &ndash;&gt; 2021-07-03 22:04:27</h4>
+<ul>
+<li>P67</li>
+</ul>
+<h3 id="第-14-章-子查询--subqueries-">第 14 章 子查询 ( Subqueries )</h3>
+<p>在一个语句中嵌套 <code>SELECT</code> 语句的行为叫做子查询.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="k">SELECT</span><span class="w"> </span><span class="n">cust_name</span><span class="p">,</span><span class="w"> </span><span class="n">cust_contact</span><span class="w">
+</span><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">customers</span><span class="w">
+</span><span class="w"></span><span class="k">WHERE</span><span class="w"> </span><span class="n">cust_id</span><span class="w"> </span><span class="k">IN</span><span class="w"> </span><span class="p">(</span><span class="k">SELECT</span><span class="w"> </span><span class="n">cust_id</span><span class="w">
+</span><span class="w">                  </span><span class="k">FROM</span><span class="w"> </span><span class="n">orders</span><span class="w">
+</span><span class="w">                  </span><span class="k">WHERE</span><span class="w"> </span><span class="n">order_num</span><span class="w"> </span><span class="k">IN</span><span class="w"> </span><span class="p">(</span><span class="k">SELECT</span><span class="w"> </span><span class="n">order_num</span><span class="w">
+</span><span class="w">                                      </span><span class="k">FROM</span><span class="w"> </span><span class="n">orderitems</span><span class="w">
+</span><span class="w">                                      </span><span class="k">WHERE</span><span class="w"> </span><span class="n">prod_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;TNT2&#39;</span><span class="p">));</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>由于性能的限制, 不宜嵌套太多的子查询</li>
+<li>P93</li>
 </ul>
 
     </article>
@@ -3286,6 +3508,38 @@ document.addEventListener('DOMContentLoaded', function () {
             <li><a href="#select-column1-from-table-order-by-column2-limit-1">SELECT column1 FROM table ORDER BY column2 LIMIT 1</a></li>
           </ul>
         </li>
+        <li><a href="#第-67-章-过滤数据-where-and-or">第 6,7 章 过滤数据 WHERE, AND, OR</a>
+          <ul>
+            <li><a href="#search-criteria--filter-condition">search criteria / filter condition</a></li>
+            <li><a href="#select-column1-column2-from-table-where-column2--25">SELECT column1, column2 FROM table WHERE column2 = 2.5</a></li>
+            <li><a href="#select-column1-from-table-where-colomn2--25-order-by-column3">SELECT column1 FROM table WHERE colomn2 = 2.5 ORDER BY column3</a></li>
+            <li><a href="#operators-used-in-where-clause">operators used in WHERE clause</a></li>
+            <li><a href="#mysql-does-case-insensitive-match-by-default">MySQL does case-insensitive match by default</a></li>
+            <li><a href="#select-column1-column2-from-table-where-column1-between-10-and-20">SELECT column1, column2 FROM table WHERE column1 BETWEEN 10 AND 20</a></li>
+            <li><a href="#select-column1-column2-from-table-where-column3-is-null">SELECT column1, column2 FROM table WHERE column3 IS NULL</a></li>
+            <li><a href="#select-column1-column2-from-table-where-column1--23-and-column2--45">SELECT column1, column2 FROM table WHERE column1 = 23 AND column2 = 45</a></li>
+            <li><a href="#select-column1-column2-from-table-where-column1--23-or-column2--45">SELECT column1, column2 FROM table WHERE column1 = 23 OR column2 = 45</a></li>
+            <li><a href="#select-column1-from-table-where-column1--23-or-column2--45-and-column3--10">SELECT column1 FROM table WHERE (column1 = 23 OR column2 = 45) AND column3 = 10</a></li>
+            <li><a href="#select-column1-from-table-where-column1-in-34-45-order-by-column2">SElECT column1 FROM table WHERE column1 IN (34, 45) ORDER BY column2</a></li>
+            <li><a href="#select-column1-from-table-where-column1-not-in-23-45">SELECT column1 FROM table WHERE column1 NOT IN (23, 45)</a></li>
+          </ul>
+        </li>
+        <li><a href="#第-8-章-同配符-like">第 8 章 同配符 LIKE</a>
+          <ul>
+            <li><a href="#predicate">predicate</a></li>
+            <li><a href="#select-david-like-dv">SELECT &lsquo;David!&rsquo; LIKE &lsquo;%d%v%&rsquo;</a></li>
+            <li><a href="#select-david-like-david_">SELECT &lsquo;David!&rsquo; LIKE &lsquo;David_&rsquo;</a></li>
+            <li><a href="#使用通配符的技巧">使用通配符的技巧</a></li>
+          </ul>
+        </li>
+        <li><a href="#第-10-章-计算字段-concat-rtrim-ltrim-trim-as">第 10 章 计算字段 Concat() RTrim() LTrim() Trim() AS</a>
+          <ul>
+            <li><a href="#select-32----6">SELECT 3*2 &ndash;&gt; 6</a></li>
+            <li><a href="#select-trimabc-----abc">SELECT Trim(&lsquo;abc &lsquo;) &ndash;&gt; abc</a></li>
+            <li><a href="#select-now----2021-07-03-220427">SELECT Now() &ndash;&gt; 2021-07-03 22:04:27</a></li>
+          </ul>
+        </li>
+        <li><a href="#第-14-章-子查询--subqueries-">第 14 章 子查询 ( Subqueries )</a></li>
       </ul>
     </li>
   </ul>
