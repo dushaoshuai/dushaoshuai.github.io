@@ -21,11 +21,47 @@
 
       
       <item>
+        <title>Git -- rename a github repository</title>
+        <link>https://dushaoshuai.github.io/posts/git/git_rename_github_repository/</link>
+        <pubDate>Tue, 13 Jul 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Tue, 13 Jul 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/git/git_rename_github_repository/</guid>
+        <description>其实并没有难度 参考官方文档 https://docs.github.com/cn/github/administering-a-repository/managing-repository-settings/renaming-a-repository 步骤 : 导航到仓库的主页面, 单击 Settings 在 Repository Name 标题下, 输入仓库的新名称, 单击 Rename, 完成重命名 虽然本地可以不进行任何更改, 但是</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/git.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Golang -- gc</title>
         <link>https://dushaoshuai.github.io/posts/golang/golang_gc/</link>
         <pubDate>Sun, 11 Jul 2021 21:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Sun, 11 Jul 2021 21:21:00 +0800</atom:modified>
+        <atom:modified>Mon, 12 Jul 2021 14:12:49 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/golang/golang_gc/</guid>
         <description>写在前面, 这篇文章确实是直接复制粘贴参考的电子书中的. 我的目的是快速记住以应付面试, 放在这里比较方便, 可以随时查看. 这篇只是抄了一些很浅显的</description>
         
@@ -61,7 +97,7 @@
         <link>https://dushaoshuai.github.io/posts/golang/goroutine_scheduler/</link>
         <pubDate>Sun, 11 Jul 2021 21:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Mon, 14 Jun 2021 17:23:17 +0800</atom:modified>
+        <atom:modified>Mon, 12 Jul 2021 14:12:49 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/golang/goroutine_scheduler/</guid>
         <description>写在前面 : 本人水平有限, 这篇文章是看了文档, 源码, 很多博客和电子书总结的, 目的也是为了应付面试, 其中必定有许多差强人意的地方, 等日后水平够了</description>
         
@@ -97,7 +133,7 @@
         <link>https://dushaoshuai.github.io/posts/golang/golang_rune_and_utf-8/</link>
         <pubDate>Fri, 09 Jul 2021 17:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Fri, 09 Jul 2021 17:21:00 +0800</atom:modified>
+        <atom:modified>Mon, 12 Jul 2021 14:12:49 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/golang/golang_rune_and_utf-8/</guid>
         <description>Unicode 字符集收集了世界上各种各样的字符, 并为每个字符分配了一个称为 Unicode code point 的标准数字, 我们可以方便地用标准数字代表相应的字符. 在 go 中, Unicode code point 用 rune 类</description>
         
@@ -277,7 +313,7 @@
         <link>https://dushaoshuai.github.io/posts/dbms/sql/sql_statements_in_mysql_crash_course/</link>
         <pubDate>Fri, 18 Jun 2021 16:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Wed, 07 Jul 2021 17:25:21 +0800</atom:modified>
+        <atom:modified>Mon, 12 Jul 2021 14:12:49 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/dbms/sql/sql_statements_in_mysql_crash_course/</guid>
         <description>第 3 章 使用 MYSQL USE database 使用数据库 P16 SHOW DATABASES 返回可用数据库的一个列表 P17 SHOW TABLES 返回当前选择的数据库内可用表的列表 P17 SHOW COLUMNS FROM table 返回每个字段的详细信息, 包括字段名</description>
         
@@ -617,7 +653,7 @@
         <link>https://dushaoshuai.github.io/posts/computer_systems/computer_network/interview/</link>
         <pubDate>Tue, 01 Jun 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Wed, 07 Jul 2021 17:39:37 +0800</atom:modified>
+        <atom:modified>Mon, 12 Jul 2021 14:12:49 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/computer_systems/computer_network/interview/</guid>
         <description>details { margin-top: 10px; } details summary { padding: 4px; width: 100%; background-color: #eeeeee; border: none; box-shadow: 1px 1px 2px #bbbbbb; cursor: pointer; } details p { background-color: #fefefe; padding: 4px; margin: 0; box-shadow: 1px 1px 2px #bbbbbb; } 问: 叙述5层因特网协议栈? 因特网协议栈以分层的方式组织协议以及</description>
         
@@ -1197,11 +1233,11 @@ Install 1  $ sudo pacman -S docker # Community Repo   optional dependencies : 1 
       
       <item>
         <title>Git -- Quick Start</title>
-        <link>https://dushaoshuai.github.io/posts/git/git/</link>
+        <link>https://dushaoshuai.github.io/posts/git/git_quick_start/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/git/git/</guid>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/git/git_quick_start/</guid>
         <description>不同的版本控制系统 链接 VCS : Version Control System CVCSs : Centralized Version Control Systems DVCSs : Distributed Version Control Systems 文件的三种状态 链接 modified : 文件已被修改, 但还未被 commit 到数据库; staged : 修改过的文件被标记为下一</description>
         
         <dc:creator>dushaouai</dc:creator>
@@ -1893,7 +1929,7 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <link>https://dushaoshuai.github.io/posts/computer_systems/thread_model/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        
+        <atom:modified>Mon, 12 Jul 2021 14:12:49 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/computer_systems/thread_model/</guid>
         <description>Linux 线程模型 1:1 一个用户线程对应一个内核线程. 内核负责每个线程的调度, 可以调度到其它处理器上. 优点: 实现简单 缺点: 对用户线程的大部分操作都会映射</description>
         
@@ -1911,7 +1947,7 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <link>https://dushaoshuai.github.io/posts/dbms/sql/common/mysql_index./</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Wed, 07 Jul 2021 17:25:21 +0800</atom:modified>
+        <atom:modified>Mon, 12 Jul 2021 14:12:49 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/dbms/sql/common/mysql_index./</guid>
         <description>mysql 的索引原理和数据结构 B+ 树和 B 树的区别是什么? mysql 聚簇索引和非聚簇索引的区别 ? 使用 mysql 索引都有什么原则 ? 不同的存储引擎是如何进行实际存储的 ? mysql 的</description>
         
@@ -1929,7 +1965,7 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <link>https://dushaoshuai.github.io/posts/distributed_task_scheduling/concept/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Wed, 07 Jul 2021 17:25:21 +0800</atom:modified>
+        <atom:modified>Mon, 12 Jul 2021 14:12:49 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/distributed_task_scheduling/concept/</guid>
         <description>crontab ssh -&amp;gt; 服务器 -&amp;gt; 配置任务 服务器宕机, 任务将终止调度 排查问题低效 分布式任务调度 可视化 web 后台, 方便进行任务管理 分布式架构, 集群化调度, 不存在单点故</description>
         

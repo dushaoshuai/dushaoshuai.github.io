@@ -14,7 +14,7 @@
     <managingEditor>aouaidug@gmail.com (shaouai)</managingEditor>
     <webMaster>aouaidug@gmail.com (shaouai)</webMaster>
     <copyright>&amp;copy;{year} dushaouai, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 24 Apr 2021 11:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jul 2021 11:21:00 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="https://dushaoshuai.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
@@ -22,12 +22,48 @@
 
       
       <item>
+        <title>Git -- rename a github repository</title>
+        <link>https://dushaoshuai.github.io/posts/git/git_rename_github_repository/</link>
+        <pubDate>Tue, 13 Jul 2021 11:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Tue, 13 Jul 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/git/git_rename_github_repository/</guid>
+        <description>其实并没有难度 参考官方文档 https://docs.github.com/cn/github/administering-a-repository/managing-repository-settings/renaming-a-repository 步骤 : 导航到仓库的主页面, 单击 Settings 在 Repository Name 标题下, 输入仓库的新名称, 单击 Rename, 完成重命名 虽然本地可以不进行任何更改, 但是</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/git.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Git -- Quick Start</title>
-        <link>https://dushaoshuai.github.io/posts/git/git/</link>
+        <link>https://dushaoshuai.github.io/posts/git/git_quick_start/</link>
         <pubDate>Sat, 24 Apr 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Tue, 27 Apr 2021 10:47:06 +0800</atom:modified>
-        <guid>https://dushaoshuai.github.io/posts/git/git/</guid>
+        <atom:modified>Sat, 24 Apr 2021 11:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/git/git_quick_start/</guid>
         <description>不同的版本控制系统 链接 VCS : Version Control System CVCSs : Centralized Version Control Systems DVCSs : Distributed Version Control Systems 文件的三种状态 链接 modified : 文件已被修改, 但还未被 commit 到数据库; staged : 修改过的文件被标记为下一</description>
         
         <dc:creator>dushaouai</dc:creator>
