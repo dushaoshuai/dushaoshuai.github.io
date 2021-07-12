@@ -42,6 +42,114 @@
 
       
       <item>
+        <title>Golang -- gc</title>
+        <link>https://dushaoshuai.github.io/posts/golang/golang_gc/</link>
+        <pubDate>Sun, 11 Jul 2021 21:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Sun, 11 Jul 2021 21:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/golang/golang_gc/</guid>
+        <description>写在前面, 这篇文章确实是直接复制粘贴参考的电子书中的. 我的目的是快速记住以应付面试, 放在这里比较方便, 可以随时查看. 这篇只是抄了一些很浅显的</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Golang -- goroutine scheduler</title>
+        <link>https://dushaoshuai.github.io/posts/golang/goroutine_scheduler/</link>
+        <pubDate>Sun, 11 Jul 2021 21:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Mon, 14 Jun 2021 17:23:17 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/golang/goroutine_scheduler/</guid>
+        <description>写在前面 : 本人水平有限, 这篇文章是看了文档, 源码, 很多博客和电子书总结的, 目的也是为了应付面试, 其中必定有许多差强人意的地方, 等日后水平够了</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Golang -- UTF-8, rune and string</title>
+        <link>https://dushaoshuai.github.io/posts/golang/golang_rune_and_utf-8/</link>
+        <pubDate>Fri, 09 Jul 2021 17:21:00 +0800</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        <atom:modified>Fri, 09 Jul 2021 17:21:00 +0800</atom:modified>
+        <guid>https://dushaoshuai.github.io/posts/golang/golang_rune_and_utf-8/</guid>
+        <description>Unicode 字符集收集了世界上各种各样的字符, 并为每个字符分配了一个称为 Unicode code point 的标准数字, 我们可以方便地用标准数字代表相应的字符. 在 go 中, Unicode code point 用 rune 类</description>
+        
+        <dc:creator>dushaouai</dc:creator>
+        <media:content url="https://dushaoshuai.github.io/images/feature/Go-logo-blue.svg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+        
+          
+            
+              <category>Golang</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Computer system -- disk sector</title>
         <link>https://dushaoshuai.github.io/posts/computer_systems/storage/sector/</link>
         <pubDate>Fri, 02 Jul 2021 16:21:00 +0800</pubDate>
@@ -530,7 +638,7 @@
         <link>https://dushaoshuai.github.io/posts/computer_systems/computer_network/interview/</link>
         <pubDate>Tue, 01 Jun 2021 11:21:00 +0800</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
-        <atom:modified>Wed, 07 Jul 2021 17:25:21 +0800</atom:modified>
+        <atom:modified>Wed, 07 Jul 2021 17:39:37 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/computer_systems/computer_network/interview/</guid>
         <description>details { margin-top: 10px; } details summary { padding: 4px; width: 100%; background-color: #eeeeee; border: none; box-shadow: 1px 1px 2px #bbbbbb; cursor: pointer; } details p { background-color: #fefefe; padding: 4px; margin: 0; box-shadow: 1px 1px 2px #bbbbbb; } 问: 叙述5层因特网协议栈? 因特网协议栈以分层的方式组织协议以及</description>
         
@@ -1803,6 +1911,24 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
       
       <item>
         <title></title>
+        <link>https://dushaoshuai.github.io/posts/computer_systems/thread_model/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>aouaidug@gmail.com (shaouai)</author>
+        
+        <guid>https://dushaoshuai.github.io/posts/computer_systems/thread_model/</guid>
+        <description>Linux 线程模型 1:1 一个用户线程对应一个内核线程. 内核负责每个线程的调度, 可以调度到其它处理器上. 优点: 实现简单 缺点: 对用户线程的大部分操作都会映射</description>
+        
+        <dc:creator>shaouai</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
         <link>https://dushaoshuai.github.io/posts/dbms/sql/common/mysql_index./</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>aouaidug@gmail.com (shaouai)</author>
@@ -1826,7 +1952,7 @@ Try Fn + F2 to unlock/lock the super key. There&amp;rsquo;s a lock icon on F2 .<
         <author>aouaidug@gmail.com (shaouai)</author>
         <atom:modified>Wed, 07 Jul 2021 17:25:21 +0800</atom:modified>
         <guid>https://dushaoshuai.github.io/posts/distributed_task_scheduling/concept/</guid>
-        <description>crontab ssh -&amp;gt; 服务器 -&amp;gt; 配置任务 服务器宕机, 任务将终止调度 排查问题低效 分布式任务调度 可视化 web 后台 分布式架构, 集群化调度, 不存在单点故障 追踪任务执行状态</description>
+        <description>crontab ssh -&amp;gt; 服务器 -&amp;gt; 配置任务 服务器宕机, 任务将终止调度 排查问题低效 分布式任务调度 可视化 web 后台, 方便进行任务管理 分布式架构, 集群化调度, 不存在单点故</description>
         
         <dc:creator>shaouai</dc:creator>
         
