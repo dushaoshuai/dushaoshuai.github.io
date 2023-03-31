@@ -1,1 +1,1 @@
-dushaoshuai.github.io
+www.shuai.host
